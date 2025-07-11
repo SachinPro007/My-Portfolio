@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+
+/* main image hover tooltip animation */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate(-0%, 30%) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-0%, -0%) scale(1);
+  }
+}
+

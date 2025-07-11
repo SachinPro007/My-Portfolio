@@ -1,0 +1,46 @@
+[
+  {
+    "question": "What technologies do you specialize in?",
+    "answer": "I specialize in crafting modern UIs with React, Tailwind CSS, JavaScript, and Material UI. For state and data handling, I use Redux Toolkit, React Router, Axios, and TanStack Query. I also design intuitive interfaces with Figma and add sleek animations using Framer Motion. Additionally, I’m skilled in Git version control and GitHub collaboration for team projects and open-source contributions."
+  },
+  {
+    "question": "What kind of projects have you built?",
+    "answer": "Over time, I’ve built several projects — from small practice apps to more detailed interfaces — while learning and sharpening my skills. But in my portfolio, I’ve chosen to highlight the two that best represent my work: a full-featured eCommerce frontend and an Employee Task Management App with role-based dashboards. These are more polished and closer to real-world use, and they reflect my focus on responsive design, clean UI, and solid frontend logic."
+  },
+  {
+    "question": "Do you have experience with state management?",
+    "answer": "Absolutely—I use Redux Toolkit and Context API to handle global state based on the complexity of the application."
+  },
+  {
+    "question": "Are your projects mobile responsive?",
+    "answer": "Yes! I prioritize mobile-first design using Tailwind CSS and Material UI, ensuring a seamless experience across devices."
+  },
+  {
+    "question": "Have you used animation in your projects?",
+    "answer": "Yes, I use Framer Motion to craft fluid animations and transitions that enhance UX without overwhelming it."
+  },
+  {
+    "question": "How do you handle version control in your projects?",
+    "answer": "I use **Git** for version control and **GitHub** for collaboration, following best practices like feature branching, pull requests, and semantic commit messages. This ensures clean, maintainable codebases—whether working solo or in teams."
+  },
+  {
+    "question": "Have you integrated any APIs?",
+    "answer": "Definitely. I use Axios for API communication and TanStack Query to streamline fetching, caching, and updating data."
+  },
+  {
+    "question": "Do you have experience with backend technologies?",
+    "answer": "My strength is in frontend, but I understand how RESTful APIs work and how frontend connects with backend systems. I’m always open to learning more on this front."
+  },
+  {
+    "question": "Do you have any experience with AI or Machine Learning?",
+    "answer": "While I don’t build ML models, I use AI tools regularly for debugging, content generation, and workflow optimization—keeping my productivity sharp and my learning curve steep."
+  },
+  {
+    "question": "How do you stay updated with the latest technologies?",
+    "answer": "I stay sharp by following tech blogs, GitHub trends, and YouTube channels, and by diving into online courses on modern frontend practices."
+  },
+  {
+    "question": "What are you currently improving?",
+    "answer": "Currently deepening my frontend expertise by exploring performance optimization techniques, accessibility best practices, and modern tools to deliver cleaner, faster, and more maintainable applications"
+  }
+]

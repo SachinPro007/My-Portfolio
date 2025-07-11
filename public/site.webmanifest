@@ -1,0 +1,22 @@
+{
+  "name": "Sachin Sehrawat | Front-End Developer",
+  "short_name": "Sachin",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#121212", 
+  "theme_color": "#F28C26", 
+  "description": "Portfolio of Sachin Sehrawat — a modern front-end developer building fast, accessible, and responsive web experiences with React and Tailwind CSS.",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
