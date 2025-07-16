@@ -137,7 +137,7 @@ function ProjectCard({ project, index, isHovered, setHoveredProject }) {
         }}
         transition={{ type: "spring", stiffness: 300 }}
       >
-        <motion.a href={project.link}>
+        <motion.a href={project.link} target="_blank">
           <motion.h3
             className="font-bold text-3xl md:text-4xl mb-1"
             style={{ color: project.projectColor }}
