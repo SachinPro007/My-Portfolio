@@ -14,19 +14,13 @@
     },
     {
       "institution": "Amity University, Noida",
-      "duration": "2023 - 2025",
-      "degree": "Master of Computer Science (MCS)",
-      "icon": "👨‍🎓"
-    },
-    {
-      "institution": "Amity University, Noida",
-      "duration": "2020 - 2023",
+      "duration": "2021 - 2024",
       "degree": "B.Sc. in Computer Science",
       "icon": "🎓"
     },
     {
       "institution": "H.S Public School, Haryana",
-      "duration": "End in 2019",
+      "duration": "End in 2020",
       "degree": "Higher Secondary Certificate",
       "icon": "🏫"
     }  
