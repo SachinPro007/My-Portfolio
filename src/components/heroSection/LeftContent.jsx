@@ -22,9 +22,10 @@ function LeftContent() {
         </div>
       </div>
 
+      {/* heading  */}
       <div className="mt-6 sm:mt-4">
         <h1
-          className="font-bold text-3xl md:text-5xl md:leading-tight max-w-3xl"
+          className="font-bold text-3xl md:text-5xl md:leading-tight max-w-3xl mx-auto"
           style={{ color: themeColors.text }}
         >
           Hey! I'm{" "}
@@ -33,6 +34,7 @@ function LeftContent() {
         </h1>
       </div>
 
+      {/* subtitle */}
       <div className="mt-6 sm:mt-4 max-w-md mx-auto lg:mx-0">
         <p
           className="text-sm md:text-base max-w-2xl mt-8 md:leading-loose tracking-wide"
@@ -41,8 +43,9 @@ function LeftContent() {
           {slide.subtitle}
         </p>
       </div>
-
-      <div className="mt-8 flex flex-col sm:flex-row gap-4">
+      
+      {/* buttons  */}
+      <div className="mt-8 flex flex-wrap justify-center lg:justify-start sm:flex-row gap-4">
         <a href="/#projects">
           <button
             className="px-6 py-3 text-white font-medium rounded-lg transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl cursor-pointer"

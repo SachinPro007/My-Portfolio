@@ -9,63 +9,6 @@ function ScrollingImages() {
   // Manage hovered icon state to show tooltip
   const [hoveredIcon, setHoveredIcon] = useState(null);
 
-  // icon scrolling animation
-  useEffect(() => {
-    const style = document.createElement("style");
-    style.textContent = `
-        @keyframes rotate {
-          from { transform: rotate(0deg); }
-          to { transform: rotate(360deg); }
-        }
-        @keyframes counter-rotate-6 {
-          from { transform: rotate(var(--start-angle)) translateX(165px) rotate(calc(-1 * var(--start-angle))); }
-          to { transform: rotate(calc(var(--start-angle) + 360deg)) translateX(165px) rotate(calc(-1 * (var(--start-angle) + 360deg))); }
-        }
-        @keyframes counter-rotate-12 {
-          from { transform: rotate(var(--start-angle)) translateX(250px) rotate(calc(-1 * var(--start-angle))); }
-          to { transform: rotate(calc(var(--start-angle) + 360deg)) translateX(250px) rotate(calc(-1 * (var(--start-angle) + 360deg))); }
-        }
-        .tooltip {
-          position: absolute;
-          bottom: 110%;
-          left: 50%;
-          transform: translateX(-50%);
-          padding: 6px 12px;
-          border-radius: 6px;
-          color: white;
-          font-size: 0.75rem;
-          font-weight: 600;
-          white-space: nowrap;
-          pointer-events: none;
-          opacity: 0;
-          transition: opacity 0.3s ease;
-          box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-          z-index: 50;
-          user-select: none;
-        }
-        .tooltip.visible {
-          opacity: 1;
-        }
-        .tooltip-arrow {
-          position: absolute;
-          top: 100%;
-          left: 50%;
-          margin-left: -6px;
-          width: 0;
-          height: 0;
-          border-left: 6px solid transparent;
-          border-right: 6px solid transparent;
-          border-top: 6px solid;
-        }
-        .icon-wrapper:hover img {
-          transform: scale(1.15);
-          transition: transform 0.3s ease;
-        }
-      `;
-    document.head.appendChild(style);
-    return () => document.head.removeChild(style);
-  }, []);
-
   // Helper to render tech icons with tooltip support
   const renderTechIcons = (
     sizeFilter,
