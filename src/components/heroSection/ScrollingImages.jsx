@@ -1,105 +1,113 @@
-import React, { memo, useEffect, useState } from "react";
+import React, { memo, useState } from "react";
 import { useSelector } from "react-redux";
 import slide from "../../data/myInfo.json";
+import useWindowSize from "../../hooks/useWindowSize";
 
 function ScrollingImages() {
   const { themeColors, theme } = useSelector((state) => state.themeReducer);
   const [isHovered, setIsHovered] = useState(false);
-
-  // Manage hovered icon state to show tooltip
   const [hoveredIcon, setHoveredIcon] = useState(null);
+  const windowSize = useWindowSize();
 
-  // Helper to render tech icons with tooltip support
-  const renderTechIcons = (
-    sizeFilter,
-    radius,
-    animationDuration,
-    animationName
-  ) =>
+  // Calculate responsive dimensions
+  const getContainerSize = () => {
+    if (!windowSize.width) return 300; // Default before hydration
+
+    if (windowSize.width >= 1280) return 500; // xl screens
+    if (windowSize.width >= 1024) return 450; // lg screens
+    if (windowSize.width >= 768) return 400; // md screens
+    if (windowSize.width >= 640) return 350; // sm screens
+    return Math.min(300, windowSize.width - 40); // xs screens
+  };
+
+  const containerSize = getContainerSize();
+  const center = containerSize / 2;
+  const smallRadius = containerSize * 0.33;
+  const largeRadius = containerSize * 0.5;
+  const smallIconSize = containerSize * 0.08;
+  const largeIconSize = containerSize * 0.14;
+
+  const renderTechIcons = (sizeFilter, radius, duration, animationName) =>
     slide.techIcons
       .filter((icon) => icon.size === sizeFilter)
       .map((icon, idx) => {
         const isHovered = hoveredIcon === `${sizeFilter}-${idx}`;
+        const iconSize = sizeFilter === "small" ? smallIconSize : largeIconSize;
+
         return (
           <div
             key={`${sizeFilter}-${idx}`}
             className="icon-wrapper"
             style={{
               position: "absolute",
-              left:
-                sizeFilter === "small"
-                  ? "calc(50% - 20px)"
-                  : "calc(50% - 35px)",
-              top:
-                sizeFilter === "small"
-                  ? "calc(50% - 20px)"
-                  : "calc(50% - 35px)",
+              left: `calc(50% - ${iconSize / 2}px)`,
+              top: `calc(50% - ${iconSize / 2}px)`,
               transform: `rotate(${icon.angle}deg) translateX(${radius}px) rotate(-${icon.angle}deg)`,
-              animation: `${animationDuration}s linear 0s infinite normal none running ${animationName}`,
-              "--start-angle": `${icon.angle}deg`,
+              animation: `${duration}s linear infinite ${animationName}`,
+              "--current-angle": `${icon.angle}deg`,
+              "--current-radius": `${radius}px`,
               cursor: "pointer",
             }}
             onMouseEnter={() => setHoveredIcon(`${sizeFilter}-${idx}`)}
             onMouseLeave={() => setHoveredIcon(null)}
           >
-            <div
-              style={{
-                width: sizeFilter === "small" ? "40px" : "70px",
-                position: "relative",
-              }}
-            >
+            <div style={{ width: `${iconSize}px`, position: "relative" }}>
               <img
                 alt={icon.name}
                 src={icon.src}
                 style={{
-                  width: sizeFilter === "small" ? "40px" : "70px",
-                  height: sizeFilter === "small" ? "40px" : "70px",
+                  width: "100%",
+                  height: "100%",
                   transition: "transform 0.3s ease",
-                  display: "block",
                 }}
               />
-
-              {/* Tooltip */}
-              <div
-                className={`tooltip${isHovered ? " visible" : ""}`}
-                style={{
-                  backgroundColor: icon.tooltipColor,
-                  borderTopColor: icon.tooltipColor,
-                }}
-              >
-                {icon.name}
+              {isHovered && (
                 <div
-                  className="tooltip-arrow"
-                  style={{ borderTopColor: icon.tooltipColor }}
-                />
-              </div>
+                  className="tech-tooltip"
+                  style={{ backgroundColor: icon.tooltipColor }}
+                >
+                  {icon.name}
+                  <div
+                    className="tech-tooltip-arrow"
+                    style={{ borderTopColor: icon.tooltipColor }}
+                  />
+                </div>
+              )}
             </div>
           </div>
         );
       });
 
   return (
-    <div className="w-full lg:w-1/2 h-full order-1 lg:order-2 flex flex-col items-center justify-center lg:justify-center py-8">
+    <div className="scrolling-images-container">
       <div
         className="relative mx-auto"
-        style={{ width: "500px", height: "500px" }}
+        style={{
+          width: `${containerSize}px`,
+          height: `${containerSize}px`,
+          minWidth: "280px",
+          minHeight: "280px",
+        }}
       >
-        {/* circle svg */}
-
-        <svg className="absolute top-0 left-0" width="500" height="500">
+        {/* Background circles */}
+        <svg
+          className="absolute top-0 left-0"
+          width={containerSize}
+          height={containerSize}
+        >
           <circle
-            cx="250"
-            cy="250"
-            r="165"
+            cx={center}
+            cy={center}
+            r={smallRadius}
             stroke={`${themeColors.primaryColor}33`}
             strokeWidth="2"
             strokeDasharray="5 5"
             fill="none"
           />
           <circle
-            cx="250"
-            cy="250"
-            r="250"
+            cx={center}
+            cy={center}
+            r={largeRadius}
             stroke={`${themeColors.primaryColor}33`}
             strokeWidth="3"
             strokeDasharray="10 10"
@@ -107,23 +115,19 @@ function ScrollingImages() {
           />
         </svg>
 
-        {/* small icon layer */}
-        <div
-          className="absolute top-0 left-0 z-0"
-          style={{ width: "500px", height: "500px" }}
-        >
-          {renderTechIcons("small", 165, 6, "counter-rotate-6")}
+        {/* Small icons layer */}
+        <div className="absolute top-0 left-0 w-full h-full">
+          {renderTechIcons("small", smallRadius, 6, "orbit-rotate")}
         </div>
 
-        {/* main image my self */}
+        {/* Main profile image */}
         <div
-          className="relative z-10 "
+          className="relative z-10 rounded-full overflow-hidden"
           style={{
-            width: "500px",
-            height: "500px",
-            borderRadius: "50%",
-            overflow: "hidden",
+            width: "100%",
+            height: "100%",
             position: "absolute",
+            borderRadius: "50%",
             top: "50%",
             left: "50%",
             transform: "translate(-50%, -50%)",
@@ -132,7 +136,7 @@ function ScrollingImages() {
           {/* my image Tooltip */}
           {isHovered && (
             <div
-              className="absolute top-2/3 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[999] px-6 py-5 rounded-2xl transition-all duration-300 animate-fadeInUp"
+              className="absolute top-1/2 md:top-2/3 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[999] px-2 md:px-6 py-5 rounded-2xl transition-all duration-300"
               style={{
                 background: `${themeColors.cardBg}CC`,
                 color: themeColors.text,
@@ -141,6 +145,7 @@ function ScrollingImages() {
                   theme === "dark" ? "0.45" : "0.15"
                 })`,
                 maxWidth: "320px",
+                minWidth: "200px",
                 textAlign: "center",
                 fontWeight: "500",
                 backdropFilter: "blur(14px)",
@@ -161,7 +166,7 @@ function ScrollingImages() {
               ></div>
 
               {/* Tooltip Content */}
-              <div className="flex flex-col items-center gap-2">
+              <div className="flex flex-col items-center gap-2 ">
                 <div
                   className="inline-flex items-center justify-center w-14 h-14 rounded-full text-2xl shadow-lg"
                   style={{
@@ -198,28 +203,28 @@ function ScrollingImages() {
             </div>
           )}
 
-          {/* Image Wrapper */}
-          <div className="w-full h-full relative z-50">
+          {/* image wraper */}
+          <div className="w-full h-full relative">
             <img
-              alt="Sachin, Frontend Developer"
-              className="absolute top-[58%] left-1/2 -translate-x-1/2 -translate-y-1/2"
+              alt="Sachin - Frontend Developer"
               src={slide.image}
+              className="absolute top-[58%] left-1/2 transform -translate-x-1/2 -translate-y-1/2"
               style={{
+                height: `${containerSize * 1.1}px`,
                 width: "auto",
-                height: "547px",
+                maxWidth: "none",
               }}
             />
           </div>
         </div>
 
-        {/* large Icon layer */}
+        {/* Large icons layer */}
         <div
-          className="absolute top-0 left-0 z-20"
-          style={{ width: "500px", height: "500px" }}
+          className="absolute top-0 left-0 w-full h-full z-20"
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
         >
-          {renderTechIcons("large", 250, 12, "counter-rotate-12")}
+          {renderTechIcons("large", largeRadius, 12, "orbit-rotate")}
         </div>
       </div>
     </div>

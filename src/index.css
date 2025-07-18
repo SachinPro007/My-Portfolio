@@ -1,56 +1,35 @@
 @import "tailwindcss";
 
 
-/* main image hover tooltip animation */
 
-@keyframes fadeInUp {
+/* Animation styles */
+@keyframes orbit-rotate {
   from {
-    opacity: 0;
-    transform: translate(-0%, 30%) scale(0.95);
+    transform: rotate(var(--current-angle)) translateX(var(--current-radius)) rotate(calc(-1 * var(--current-angle)));
   }
-
   to {
-    opacity: 1;
-    transform: translate(-0%, -0%) scale(1);
+    transform: rotate(calc(var(--current-angle) + 360deg)) translateX(var(--current-radius)) rotate(calc(-1 * (var(--current-angle) + 360deg)));
   }
 }
 
-/* hero section image icon scrolling animation style.. */
-
-
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
+/* Container styles */
+.scrolling-images-container {
+  @apply w-full lg:w-1/2 h-full order-1 lg:order-2 flex flex-col items-center justify-center py-4 lg:py-8;
 }
 
-@keyframes counter-rotate-6 {
-  from {
-    transform: rotate(var(--start-angle)) translateX(165px) rotate(calc(-1 * var(--start-angle)));
-  }
-
-  to {
-    transform: rotate(calc(var(--start-angle) + 360deg)) translateX(165px) rotate(calc(-1 * (var(--start-angle) + 360deg)));
-  }
+/* Tech icon styles */
+.icon-wrapper {
+  transform-origin: center;
 }
 
-@keyframes counter-rotate-12 {
-  from {
-    transform: rotate(var(--start-angle)) translateX(250px) rotate(calc(-1 * var(--start-angle)));
-  }
-
-  to {
-    transform: rotate(calc(var(--start-angle) + 360deg)) translateX(250px) rotate(calc(-1 * (var(--start-angle) + 360deg)));
-  }
+.icon-wrapper:hover img {
+  transform: scale(1.15);
 }
 
-.tooltip {
+/* Tooltip styles */
+.tech-tooltip {
   position: absolute;
-  bottom: 110%;
+  bottom: 100%;
   left: 50%;
   transform: translateX(-50%);
   padding: 6px 12px;
@@ -59,19 +38,14 @@
   font-size: 0.75rem;
   font-weight: 600;
   white-space: nowrap;
-  pointer-events: none;
+  margin-bottom: 8px;
   opacity: 0;
-  transition: opacity 0.3s ease;
+  animation: fadeIn 0.2s ease-out forwards;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   z-index: 50;
-  user-select: none;
 }
 
-.tooltip.visible {
-  opacity: 1;
-}
-
-.tooltip-arrow {
+.tech-tooltip-arrow {
   position: absolute;
   top: 100%;
   left: 50%;
@@ -83,7 +57,51 @@
   border-top: 6px solid;
 }
 
-.icon-wrapper:hover img {
-  transform: scale(1.15);
-  transition: transform 0.3s ease;
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateX(-50%) translateY(10px); }
+  to { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+
+.emoji-circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .profile-tooltip {
+    max-width: 280px;
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .tech-tooltip {
+    font-size: 0.65rem;
+    padding: 4px 8px;
+  }
+  
+  .emoji-circle {
+    width: 48px;
+    height: 48px;
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-tooltip {
+    max-width: 240px;
+  }
+  
+  .tech-tooltip {
+    white-space: normal;
+    max-width: 100px;
+    text-align: center;
+  }
 }
