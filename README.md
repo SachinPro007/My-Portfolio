@@ -1,6 +1,6 @@
 # Modern Portfolio Website
 
-![Portfolio Screenshot](https://media.licdn.com/dms/image/v2/D562DAQH6o4DLv0ua8w/profile-treasury-image-shrink_800_800/B56ZfTonEVHoAg-/0/1751602330084?e=1752829200&v=beta&t=nWgVXXuBMMD4BSrUqT_K2DyS1GsHVAvUmnfWDO91pY0) 
+![Portfolio Screenshot](https://totalwebsolution.in/og-image.webp) 
 
 
 A sleek, interactive portfolio website built with modern web technologies featuring advanced animations and customizable themes.
