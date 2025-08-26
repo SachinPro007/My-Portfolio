@@ -47,9 +47,9 @@ function RightSideContent() {
               style={{ color: themeColors.summeryText }}
             >
               I'm using modern technologies like <Highlight>React</Highlight>,{" "}
-              <Highlight>Redux/RTK</Highlight>, and{" "}
-              <Highlight>React Router</Highlight> for fast, responsive
-              interfaces.
+              <Highlight>Redux</Highlight>, and{" "}
+              <Highlight>TypeScript</Highlight> for fast, type-safe, and
+              responsive interfaces.
               <br />
               <Highlight>Axios</Highlight> and{" "}
               <Highlight>TanStack Query</Highlight> for efficient data handling.
@@ -64,7 +64,9 @@ function RightSideContent() {
               foundation — plus integration of <Highlight>AI tools</Highlight>{" "}
               for modern workflows and innovation.
               <br />
-              Skilled in <Highlight>Git</Highlight> version control and <Highlight>GitHub</Highlight> collaboration for team projects and open-source contributions.
+              Skilled in <Highlight>Git</Highlight> version control and{" "}
+              <Highlight>GitHub</Highlight> collaboration for team projects and
+              open-source contributions.
             </p>
           </div>
         </div>
@@ -109,11 +111,7 @@ function RightSideContent() {
             Upcoming Learning Goals
           </h4>
           <div className="flex flex-wrap gap-2">
-            {[
-              "Needed Tools",
-              "Data Structures & Algorithms (DSA)",
-              "Backend",
-            ].map((item, i) => (
+            {["Advance Frontend Tools", "Next.Js"].map((item, i) => (
               <span
                 key={i}
                 className="px-3 py-1 text-xs font-medium rounded-full"

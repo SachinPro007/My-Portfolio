@@ -28,6 +28,11 @@ const SkillsSection = () => {
           tooltipColor: "#F7DF1E",
         },
         {
+          name: "TypeScript",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+          tooltipColor: "#3178C6",
+        },
+        {
           name: "React",
           src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
           tooltipColor: "#61DAFB",

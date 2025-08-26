@@ -109,6 +109,7 @@ const FAQSection = () => {
 const FAQItem = ({ faq, themeColors, index, open, setOpen }) => {
   const keywords = [
     "React",
+    "TypeScript",
     "best practices",
     "Tailwind CSS",
     "JavaScript",

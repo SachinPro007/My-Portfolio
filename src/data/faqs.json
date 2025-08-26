@@ -1,7 +1,7 @@
 [
   {
     "question": "What technologies do you specialize in?",
-    "answer": "I specialize in crafting modern UIs with React, Tailwind CSS, JavaScript, and Material UI. For state and data handling, I use Redux Toolkit, React Router, Axios, and TanStack Query. I also design intuitive interfaces with Figma and add sleek animations using Framer Motion. Additionally, I’m skilled in Git version control and GitHub collaboration for team projects and open-source contributions."
+    "answer": "I specialize in crafting modern UIs with React, TypeScript, Tailwind CSS, JavaScript, and Material UI. For state and data handling, I use Redux Toolkit, React Router, Axios, and TanStack Query. I also design intuitive interfaces with Figma and add sleek animations using Framer Motion. Additionally, I’m skilled in Git version control and GitHub collaboration for team projects and open-source contributions."
   },
   {
     "question": "What kind of projects have you built?",

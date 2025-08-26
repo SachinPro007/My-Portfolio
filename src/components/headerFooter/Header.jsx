@@ -300,7 +300,7 @@ const Header = () => {
                   ))}
 
                   <motion.a
-                    href="/resume.pdf"
+                    href="/Sachin_Frontend_Developer.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block"

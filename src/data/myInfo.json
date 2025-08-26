@@ -1,11 +1,11 @@
 {
   "id": "coding-bundle",
-  "subtitle": "I’m a Front-End Developer who thrives on learning, improving, and building meaningful experiences on the web. For me, coding isn’t just about writing functions — it’s about solving problems, growing with every project, and creating interfaces that feel effortless to use...",
+  "subtitle": "I’m a Front-End Developer passionate about learning, improving, and crafting web experiences that feel effortless to use. For me, coding isn’t just about writing functions — it’s about solving problems and growing with every project.",
   "badge": "Front-End Developer </>",
   "gradient": "from-green-400 via-cyan-400 to-blue-500",
   "buttonColor": "from-green-500 to-cyan-500",
   "image": "/Sachin-front-end-developer.webp",
-  "education": [    
+  "education": [
     {
       "institution": "Multiple Resources: Online Courses & Self-Study",
       "duration": "2024 - Still Learning",
@@ -15,16 +15,15 @@
     {
       "institution": "Amity University, Noida",
       "duration": "2021 - 2024",
-      "degree": "B.Sc. in Computer Science",
+      "degree": "Bachelor of Computer Applications (BCA)",
       "icon": "🎓"
     },
     {
-      "institution": "H.S Public School, Haryana",
+      "institution": "H.S Public School",
       "duration": "End in 2020",
       "degree": "Higher Secondary Certificate",
       "icon": "🏫"
-    }  
-    
+    }
   ],
   "techIcons": [
     {
@@ -112,11 +111,11 @@
       "tooltipColor": "#38B2AC"
     },
     {
-      "name": "Figma",
-      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+      "name": "TypeScript",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
       "size": "small",
       "angle": 300,
-      "tooltipColor": "#F24E1E"
+      "tooltipColor": "#3178C6"
     }
   ]
 }

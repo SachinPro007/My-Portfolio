@@ -76,7 +76,7 @@ const lightTheme = {
 
 let customTheme = JSON.parse(localStorage.getItem('customTheme')) || {...darkTheme};
 
-const theme = localStorage.getItem('theme') || 'dark'
+const theme = localStorage.getItem('theme') || 'light'
 const initialState = {
   theme: theme, // 'dark', 'light', or 'custom'
   themeColors: theme === 'dark' ? darkTheme : theme === "custom" ? customTheme : lightTheme,
