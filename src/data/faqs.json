@@ -1,15 +1,15 @@
 [
   {
     "question": "What technologies do you specialize in?",
-    "answer": "I specialize in crafting modern UIs with React, TypeScript, Tailwind CSS, JavaScript, and Material UI. For state and data handling, I use Redux Toolkit, React Router, Axios, and TanStack Query. I also design intuitive interfaces with Figma and add sleek animations using Framer Motion. Additionally, I’m skilled in Git version control and GitHub collaboration for team projects and open-source contributions."
+    "answer": "I specialize in crafting modern UIs with Next.js, React, TypeScript, Tailwind CSS, JavaScript, and Material UI. For state and data handling, I use Redux Toolkit, React Router, Axios, and TanStack Query. I also design intuitive interfaces with Figma and add sleek animations using Framer Motion. Additionally, I’m skilled in Git version control and GitHub collaboration for team projects and open-source contributions."
   },
   {
     "question": "What kind of projects have you built?",
-    "answer": "Over time, I’ve built several projects — from small practice apps to more detailed interfaces — while learning and sharpening my skills. But in my portfolio, I’ve chosen to highlight the two that best represent my work: a full-featured eCommerce frontend and an Employee Task Management App with role-based dashboards. These are more polished and closer to real-world use, and they reflect my focus on responsive design, clean UI, and solid frontend logic."
+    "answer": "Over time, I’ve built several projects—from small practice apps to more detailed interfaces—while sharpening my skills. For my portfolio, I’ve chosen to highlight the three that best represent my work:\n\nMy personal Portfolio, with custom color choices for the user.\n\nA full-featured eCommerce frontend.\n\nAn Employee Task Management App with role-based dashboards.\n\nI'm also currently developing a new project with Next.js and TypeScript. These projects are more polished and closer to real-world use, and they reflect my focus on responsive design, clean UI, and solid frontend logic."
   },
   {
     "question": "Do you have experience with state management?",
-    "answer": "Absolutely—I use Redux Toolkit and Context API to handle global state based on the complexity of the application."
+    "answer": "Absolutely—I use Redux and Context API to handle global state based on the complexity of the application."
   },
   {
     "question": "Are your projects mobile responsive?",
@@ -29,7 +29,7 @@
   },
   {
     "question": "Do you have experience with backend technologies?",
-    "answer": "My strength is in frontend, but I understand how RESTful APIs work and how frontend connects with backend systems. I’m always open to learning more on this front."
+    "answer": "My primary strength is in frontend development, but my experience with Next.js has given me hands-on skills in building full-stack applications. I have a solid understanding of how frontend systems connect with backend APIs and have built my own API routes within Next.js. I'm always open to deepening my knowledge in this area."
   },
   {
     "question": "Do you have any experience with AI or Machine Learning?",
@@ -41,6 +41,6 @@
   },
   {
     "question": "What are you currently improving?",
-    "answer": "Currently deepening my frontend expertise by exploring performance optimization techniques, accessibility best practices, and modern tools to deliver cleaner, faster, and more maintainable applications"
+    "answer": "While I’m always honing my core skills, my main focus right now is deepening my knowledge of Next.js by building a new project with TypeScript. I believe these are key for building modern, scalable applications and I’m excited to become proficient with them."
   }
 ]

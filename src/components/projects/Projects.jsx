@@ -9,10 +9,20 @@ const projects = [
     subtitle: "Coming Soon",
     description:
       "I'm currently building something exciting that I can't wait to share. Once it's live, this section will be updated with full project details. The initial code will be pushed to GitHub — stay tuned for the launch!",
-    tags: ["In Progress", "Learning GitHub"],
+    tags: ["In Progress", "Next.js", "TypeScript"],
     image: "/comingSoon.webp",
     link: "#",
     projectColor: "#9333ea",
+  },
+  {
+    title: "Upcoming Project",
+    subtitle: "Coming Soon",
+    description:
+      "Designed and built a fully custom, animation-rich portfolio to leave a strong first impression with  custom theme controls: light/dark toggle + custom color, so visitors can personalize their experience...!",
+    tags: [ "React", "Tailwind CSS", "Framer Motion", "Context API", "Email Js", "AI"],
+    image: "/My-Portfolio.webp",
+    link: "#",
+    projectColor: "#EA580C",
   },
   {
     title: "ShopEase",
@@ -265,7 +275,7 @@ const ProjectTimeline = () => {
                     border: `1px solid ${themeColors.border}`,
                   }}
                 >
-                  Advanced Frontend Patterns
+                  Next.js
                 </div>
               </motion.div>
             </div>

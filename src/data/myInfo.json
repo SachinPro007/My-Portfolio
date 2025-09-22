@@ -69,11 +69,11 @@
       "tooltipColor": "#FF9A00"
     },
     {
-      "name": "Framer Motion",
-      "src": "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/framermotion/framermotion-original.svg",
+      "name": "Next.js",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/nextjs/nextjs-original.svg",
       "size": "large",
       "angle": 306,
-      "tooltipColor": "#FF0090"
+      "tooltipColor": "#000000"
     },
     {
       "name": "HTML",

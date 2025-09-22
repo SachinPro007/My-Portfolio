@@ -34,6 +34,7 @@ function RightSideContent() {
           >
             My Development Philosophy
           </h3>
+
           {/* summary  */}
           <div
             className="p-6 rounded-xl"
@@ -46,7 +47,7 @@ function RightSideContent() {
               className="text-lg leading-relaxed"
               style={{ color: themeColors.summeryText }}
             >
-              I'm using modern technologies like <Highlight>React</Highlight>,{" "}
+              I'm using modern technologies like <Highlight>Next.js</Highlight>, <Highlight>React</Highlight>,{" "}
               <Highlight>Redux</Highlight>, and{" "}
               <Highlight>TypeScript</Highlight> for fast, type-safe, and
               responsive interfaces.
@@ -111,7 +112,7 @@ function RightSideContent() {
             Upcoming Learning Goals
           </h4>
           <div className="flex flex-wrap gap-2">
-            {["Advance Frontend Tools", "Next.Js"].map((item, i) => (
+            {["Advance Frontend Tools"].map((item, i) => (
               <span
                 key={i}
                 className="px-3 py-1 text-xs font-medium rounded-full"

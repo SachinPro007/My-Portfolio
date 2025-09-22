@@ -38,6 +38,11 @@ const SkillsSection = () => {
           tooltipColor: "#61DAFB",
         },
         {
+          name: "Next.js",
+          src: "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/nextjs/nextjs-original.svg",
+          tooltipColor: "#000000",
+        },
+        {
           name: "Tailwind CSS",
           src: "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/tailwindcss/tailwindcss-original.svg",
           tooltipColor: "#38B2AC",
@@ -61,11 +66,6 @@ const SkillsSection = () => {
           name: "Axios",
           src: "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/axios/axios-plain.svg",
           tooltipColor: "#5A29E4",
-        },
-        {
-          name: "React Router",
-          src: "https://reactrouter.com/favicon-light.png",
-          tooltipColor: "#CA4245",
         },
         {
           name: "TanStack Query",
