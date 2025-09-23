@@ -15,8 +15,8 @@ const projects = [
     projectColor: "#9333ea",
   },
   {
-    title: "Upcoming Project",
-    subtitle: "Coming Soon",
+    title: "My Portfolio",
+    subtitle: "Sachin - Frontend Developer",
     description:
       "Designed and built a fully custom, animation-rich portfolio to leave a strong first impression with  custom theme controls: light/dark toggle + custom color, so visitors can personalize their experience...!",
     tags: [ "React", "Tailwind CSS", "Framer Motion", "Context API", "Email Js", "AI"],
