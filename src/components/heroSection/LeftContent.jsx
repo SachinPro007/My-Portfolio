@@ -29,8 +29,8 @@ function LeftContent() {
           style={{ color: themeColors.text }}
         >
           Hey! I'm{" "}
-          <span style={{ color: themeColors.primaryColor }}>Sachin</span> and
-          I'm a Front-End Developer.
+          <span style={{ color: themeColors.primaryColor }}>Sachin</span>
+          , a Full-Stack Next.js Developer.
         </h1>
       </div>
 

@@ -1,7 +1,7 @@
 {
   "id": "coding-bundle",
-  "subtitle": "I’m a Front-End Developer passionate about learning, improving, and crafting web experiences that feel effortless to use. For me, coding isn’t just about writing functions — it’s about solving problems and growing with every project.",
-  "badge": "Front-End Developer </>",
+  "subtitle": "I’m a Next.js Developer passionate about crafting scalable, high-performance web solutions. For me, coding is about solving complex problems while delivering a seamless, effortless user experience.",
+  "badge": "Next.js (Full-Stack) </>",
   "gradient": "from-green-400 via-cyan-400 to-blue-500",
   "buttonColor": "from-green-500 to-cyan-500",
   "image": "/Sachin-front-end-developer.webp",

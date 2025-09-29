@@ -61,7 +61,7 @@ const Footer = () => {
                 className="text-sm uppercase tracking-wider opacity-75"
                 style={{ color: themeColors.summeryText }}
               >
-                Frontend Specialist • Creative Technologist
+                Next.js Developer • Scalable Solutions
               </p>
             </motion.div>
 
@@ -146,7 +146,8 @@ const Footer = () => {
               Open to freelance, consulting, or just a tech chat over coffee.
             </p>
             <motion.a
-              href="mailto:sachin@totalwebsolution.in"
+              href="https://www.linkedin.com/in/sachinpro/"
+              target="_blank"
               className="px-6 py-3 rounded-full text-sm font-medium relative overflow-hidden"
               style={{
                 backgroundColor: themeColors.primaryColor,

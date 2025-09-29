@@ -47,27 +47,18 @@ function RightSideContent() {
               className="text-lg leading-relaxed"
               style={{ color: themeColors.summeryText }}
             >
-              I'm using modern technologies like <Highlight>Next.js</Highlight>, <Highlight>React</Highlight>,{" "}
-              <Highlight>Redux</Highlight>, and{" "}
-              <Highlight>TypeScript</Highlight> for fast, type-safe, and
-              responsive interfaces.
-              <br />
-              <Highlight>Axios</Highlight> and{" "}
-              <Highlight>TanStack Query</Highlight> for efficient data handling.
-              <br />
-              <Highlight>Tailwind CSS</Highlight>,{" "}
-              <Highlight>Material UI</Highlight>, <Highlight>Figma</Highlight>,
-              and <Highlight>Framer Motion</Highlight> for clean, animated,
-              accessible UIs.
-              <br />
-              Solid <Highlight>JavaScript</Highlight>,{" "}
-              <Highlight>HTML</Highlight>, and <Highlight>CSS</Highlight>{" "}
-              foundation — plus integration of <Highlight>AI tools</Highlight>{" "}
-              for modern workflows and innovation.
-              <br />
-              Skilled in <Highlight>Git</Highlight> version control and{" "}
-              <Highlight>GitHub</Highlight> collaboration for team projects and
-              open-source contributions.
+              <li><Highlight>Next.js (Full-Stack), React, Redux, and TypeScript:</Highlight> Building fast, type-safe, and scalable applications. I leverage Next.js's server-side capabilities for maximum performance and full-stack solutions.</li>
+
+              <li><Highlight>Axios and TanStack Query:</Highlight> Utilizing these for efficient server state management and reliable asynchronous data handling.</li>
+
+              <li><Highlight>Tailwind CSS, Material UI, and Framer Motion:</Highlight> Expertly crafting clean, animated, and accessible UIs.</li>
+
+              <li><Highlight>Figma:</Highlight> Proficient in translating design concepts into pixel-perfect user interfaces.</li>
+
+              <li><Highlight>JavaScript (ES6+), HTML5, and CSS3:</Highlight> Solid foundation ensuring deep technical understanding.</li>
+
+              <li><Highlight>Git and GitHub:</Highlight> Skilled in version control and collaboration for team projects and open-source contributions.</li>
+              <li><Highlight>AI Tools:</Highlight> Integrating modern technologies for enhanced workflows and innovation.</li>
             </p>
           </div>
         </div>

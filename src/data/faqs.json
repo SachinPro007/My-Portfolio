@@ -1,46 +1,46 @@
 [
   {
     "question": "What technologies do you specialize in?",
-    "answer": "I specialize in crafting modern UIs with Next.js, React, TypeScript, Tailwind CSS, JavaScript, and Material UI. For state and data handling, I use Redux Toolkit, React Router, Axios, and TanStack Query. I also design intuitive interfaces with Figma and add sleek animations using Framer Motion. Additionally, I’m skilled in Git version control and GitHub collaboration for team projects and open-source contributions."
+    "answer": "I specialize in the modern Next.js ecosystem, building high-performance, full-stack applications with React and TypeScript. My core stack includes Next.js, Redux, TanStack Query, Tailwind CSS, and Framer Motion. I also utilize Axios for dependable data fetching and Figma for design translation."
   },
   {
     "question": "What kind of projects have you built?",
-    "answer": "Over time, I’ve built several projects—from small practice apps to more detailed interfaces—while sharpening my skills. For my portfolio, I’ve chosen to highlight the three that best represent my work:\n\nMy personal Portfolio, with custom color choices for the user.\n\nA full-featured eCommerce frontend.\n\nAn Employee Task Management App with role-based dashboards.\n\nI'm also currently developing a new project with Next.js and TypeScript. These projects are more polished and closer to real-world use, and they reflect my focus on responsive design, clean UI, and solid frontend logic."
+    "answer": "I focus on projects that reflect real-world use and showcase my full-stack capability. Currently, I highlight: My personal Portfolio (performance-optimized), a full-featured eCommerce frontend, and an Employee Task Management App (with role-based dashboards). I'm also always developing new Next.js and TypeScript projects to explore architectural patterns."
   },
   {
     "question": "Do you have experience with state management?",
-    "answer": "Absolutely—I use Redux and Context API to handle global state based on the complexity of the application."
+    "answer": "Yes. For complex global state, I use Redux. Crucially, for efficient server state and data fetching, I rely on TanStack Query, which is essential for high-performance applications."
   },
   {
     "question": "Are your projects mobile responsive?",
-    "answer": "Yes! I prioritize mobile-first design using Tailwind CSS and Material UI, ensuring a seamless experience across devices."
+    "answer": "Absolutely! I prioritize mobile-first, responsive design as standard practice, utilizing Tailwind CSS and Material UI to guarantee a seamless and accessible experience on any device."
   },
   {
     "question": "Have you used animation in your projects?",
-    "answer": "Yes, I use Framer Motion to craft fluid animations and transitions that enhance UX without overwhelming it."
+    "answer": "Definitely. I use Framer Motion to craft fluid, meaningful transitions that enhance the user experience without sacrificing page performance."
   },
   {
     "question": "How do you handle version control in your projects?",
-    "answer": "I use **Git** for version control and **GitHub** for collaboration, following best practices like feature branching, pull requests, and semantic commit messages. This ensures clean, maintainable codebases—whether working solo or in teams."
+    "answer": "Git and GitHub are integral to my workflow. I strictly adhere to best practices like feature branching, pull requests, and semantic commit messages to ensure clean, maintainable, and collaborative codebases."
   },
   {
     "question": "Have you integrated any APIs?",
-    "answer": "Definitely. I use Axios for API communication and TanStack Query to streamline fetching, caching, and updating data."
+    "answer": "Yes. I handle API integration using Axios and rely on TanStack Query to streamline complex data fetching, caching, and updates, optimizing application speed and user experience."
   },
   {
     "question": "Do you have experience with backend technologies?",
-    "answer": "My primary strength is in frontend development, but my experience with Next.js has given me hands-on skills in building full-stack applications. I have a solid understanding of how frontend systems connect with backend APIs and have built my own API routes within Next.js. I'm always open to deepening my knowledge in this area."
+    "answer": "Yes. As a Full-Stack Next.js Developer, I am experienced in creating and consuming backend logic. I build API Routes within Next.js and understand database integration and server-side logic required for truly scalable applications."
   },
   {
     "question": "Do you have any experience with AI or Machine Learning?",
-    "answer": "While I don’t build ML models, I use AI tools regularly for debugging, content generation, and workflow optimization—keeping my productivity sharp and my learning curve steep."
+    "answer": "While I don't build ML models, I strategically integrate AI tools into my development workflow for tasks like code optimization, debugging, and productivity, ensuring a modern and efficient development process."
   },
   {
     "question": "How do you stay updated with the latest technologies?",
-    "answer": "I stay sharp by following tech blogs, GitHub trends, and YouTube channels, and by diving into online courses on modern frontend practices."
+    "answer": "I maintain continuous learning by actively following tech leaders, contributing to GitHub trends, reading documentation, and building new side projects—focusing specifically on Next.js and performance optimizations."
   },
   {
     "question": "What are you currently improving?",
-    "answer": "While I’m always honing my core skills, my main focus right now is deepening my knowledge of Next.js by building a new project with TypeScript. I believe these are key for building modern, scalable applications and I’m excited to become proficient with them."
+    "answer": "I am constantly improving my knowledge of performance engineering and advanced architectural patterns within the Next.js App Router to deliver even more efficient and complex full-stack solutions...."
   }
 ]
