@@ -190,7 +190,7 @@ function ScrollingImages() {
                   >
                     Sachin
                   </span>{" "}
-                  — a Front-End Developer.
+                  — a Next.js Developer.
                 </p>
                 <p
                   className="text-sm text-muted leading-relaxed"
