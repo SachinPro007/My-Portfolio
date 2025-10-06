@@ -59,8 +59,8 @@ const ContactSection = () => {
               {
                 icon: "Mail",
                 title: "Email",
-                value: "sachin@totalwebsolution.in",
-                href: "mailto:sachin@totalwebsolution.in",
+                value: "mrsachinsehrawat07@gmail.com",
+                href: "mailto:mrsachinsehrawat07@gmail.com",
               },
               {
                 icon: "Phone",
@@ -71,7 +71,7 @@ const ContactSection = () => {
               {
                 icon: "MapPin",
                 title: "Location",
-                value: "Palwal, Haryana",
+                value: "Sector 128, Noida, Uttar Pradesh",
               },
             ].map((item, i) => (
               <motion.div
@@ -157,7 +157,7 @@ const ContactSection = () => {
             >
               <div className="absolute inset-0 flex items-center justify-center">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28144.49932534508!2d77.30497389247557!3d28.144588059782553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cd3ad98a3489f%3A0x859799eaeabce205!2sPalwal%2C%20Haryana%20121102!5e0!3m2!1sen!2sin!4v1751281613518!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.568392793973!2d77.35048037479706!3d28.5226305757249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce79e37f37571%3A0x6660ea69a78adc0f!2sPavilion%20Court%20Tower%205%20%26%206!5e0!3m2!1sen!2sin!4v1759723361732!5m2!1sen!2sin"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}

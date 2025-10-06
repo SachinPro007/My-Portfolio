@@ -11,17 +11,37 @@ const projects = [
       "I'm currently building something exciting that I can't wait to share. Once it's live, this section will be updated with full project details. The initial code will be pushed to GitHub — stay tuned for the launch!",
     tags: ["In Progress", "Next.js", "TypeScript"],
     image: "/comingSoon.webp",
-    link: "#",
+    liveDemo: "#",
+    githubRepo: "#",
     projectColor: "#9333ea",
+  },
+  {
+    title: "Secure Todo Application",
+    subtitle: "Next.js Full-Stack Project",
+    description:
+      "Full-stack To-Do application built with Next.js 15 (App Router). This project serves as a comprehensive showcase of modern, secure architecture and full-stack implementation, going far beyond basic task management. And The primary focus of this application is on security, data isolation, and advanced user management, ensuring every user's data is private and secure.",
+    tags: ["Next.js", "MySQL", "Auth.js", "Bcrypt", "Zod", "HMAC"],
+    image: "/Full_Stack_Todo.webp",
+    liveDemo: "https://full-stack-todo-gray.vercel.app/",
+    githubRepo: "https://github.com/SachinPro007/full_stack_todo",
+    projectColor: "#432dd7",
   },
   {
     title: "My Portfolio",
     subtitle: "Sachin - Frontend Developer",
     description:
       "Designed and built a fully custom, animation-rich portfolio to leave a strong first impression with  custom theme controls: light/dark toggle + custom color, so visitors can personalize their experience...!",
-    tags: [ "React", "Tailwind CSS", "Framer Motion", "Context API", "Email Js", "AI"],
+    tags: [
+      "React",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Context API",
+      "Email Js",
+      "AI",
+    ],
     image: "/My-Portfolio.webp",
-    link: "#",
+    liveDemo: "#",
+    githubRepo: "https://github.com/SachinPro007/My-Portfolio",
     projectColor: "#EA580C",
   },
   {
@@ -42,7 +62,8 @@ const projects = [
       "React Slick",
     ],
     image: "/ecommerce.webp",
-    link: "https://shopease-ecomm.netlify.app",
+    liveDemo: "https://shopease-ecomm.netlify.app",
+    githubRepo: "https://github.com/SachinPro007/ShopEase_E-Commerce",
     projectColor: "#d51243",
   },
   {
@@ -58,7 +79,8 @@ const projects = [
       "React Toastify",
     ],
     image: "/ems.webp",
-    link: "https://click-task.netlify.app",
+    liveDemo: "https://click-task.netlify.app",
+    githubRepo: "https://github.com/SachinPro007/ClickTask",
     projectColor: "#2563eb",
   },
 ];
@@ -153,7 +175,7 @@ const ProjectTimeline = () => {
           })}
         </div>
       </div>
-      
+
       {/*Note for Read... */}
       <motion.div
         className="max-w-2xl mx-auto mt-20 px-6 relative group"
@@ -209,20 +231,20 @@ const ProjectTimeline = () => {
                 >
                   watches
                 </span>
-                , {" "}
+                ,{" "}
                 <span
                   className="font-medium"
                   style={{ color: themeColors.accentBlue }}
                 >
                   website clones
                 </span>
-                , and {" "}
+                , and{" "}
                 <span
                   className="font-medium"
                   style={{ color: themeColors.accentBlue }}
                 >
                   many more
-                </span> {" "}
+                </span>{" "}
                 to sharpen my skills. The projects shown above represent my{" "}
                 <span
                   className="font-semibold"
@@ -242,7 +264,7 @@ const ProjectTimeline = () => {
                   className="font-semibold"
                   style={{ color: themeColors.accentGold }}
                 >
-                  frontend logic
+                  project building logic
                 </span>
                 .
               </motion.p>
