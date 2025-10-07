@@ -95,37 +95,6 @@ const Footer = () => {
                 bad jokes.
               </p>
               <div className="flex gap-4">
-                {/* {socialLinks.map((link, index) => (
-                  <motion.a
-                    key={index}
-                    href={link.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={link.label}
-                    className="relative p-2 rounded-full"
-                    style={{
-                      color: themeColors.text,
-                      border: `1px solid ${themeColors.borderLight}`
-                    }}
-                    initial={{ opacity: 0, y: 10 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    whileHover={{
-                      backgroundColor: themeColors.primaryColor,
-                      color: themeColors.cardBg,
-                      borderColor: themeColors.primaryColor,
-                      y: -4
-                    }}
-                    transition={{ 
-                      type: "spring",
-                      stiffness: 400,
-                      damping: 10,
-                      delay: 0.1 * index
-                    }}
-                    viewport={{ once: true, margin: "-50px" }}
-                  >
-                    {link.icon}
-                  </motion.a>
-                ))} */}
                 <SocialLinks />
               </div>
             </motion.div>

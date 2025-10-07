@@ -31,6 +31,7 @@ const FooterSocial = () => {
 
   return (
     <div className="flex items-center justify-center flex-wrap gap-3">
+      {/* eslint-disable-next-line */}
       {socials.map(({ id, icon: Icon, label, url, color }) => (
         <a
           key={id}
