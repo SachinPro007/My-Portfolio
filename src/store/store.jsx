@@ -6,6 +6,7 @@ const store = configureStore({
   reducer: {
     themeReducer: themeReducer
   },
+  // eslint-disable-next-line
   devTools: process.env.NODE_ENV !== 'production',
 });
 
