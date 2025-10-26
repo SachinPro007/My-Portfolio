@@ -1,7 +1,7 @@
 import React, { memo } from "react";
 import { useSelector } from "react-redux";
 
-function EducationCard({item}) {
+function EducationCard({ item }) {
   const { themeColors } = useSelector((state) => state.themeReducer);
   return (
     <div className="flex relative pl-14">
@@ -29,7 +29,7 @@ function EducationCard({item}) {
             className="text-xl font-semibold mb-2"
             style={{ color: themeColors.text }}
           >
-            {item.degree}
+            {item.title}
           </h4>
           <p
             className="text-sm mb-2 flex items-center"
@@ -55,8 +55,9 @@ function EducationCard({item}) {
                 d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
               ></path>
             </svg>
-            {item.institution}
+            {item.location}
           </p>
+
           <span
             className="inline-block px-3 py-1 text-xs font-semibold rounded-full"
             style={{
@@ -67,6 +68,15 @@ function EducationCard({item}) {
           >
             {item.duration}
           </span>
+
+          {item.description && (
+            <p
+              className="text-sm mt-2 flex items-center"
+              style={{ color: themeColors.summeryText }}
+            >
+              {item.description}
+            </p>
+          )}
         </div>
       </div>
     </div>

@@ -5,23 +5,34 @@
   "gradient": "from-green-400 via-cyan-400 to-blue-500",
   "buttonColor": "from-green-500 to-cyan-500",
   "image": "/Sachin-front-end-developer.webp",
+  "experience": [
+    {
+      "title": "Frontend Developer - Mentored by Senior Developer",
+      "location": "Remote | Part-time",
+      "duration": "Jul 2025 - Sep 2025",
+      "description": [
+        "Built React applications with TypeScript, creating reusable and type-safe components Maintained high code quality using ESLint, Prettier and Git version control Implemented state management using React Context API and custom hooks Transformed Figma designs into responsive, functional user interfaces Developed expertise in TypeScript for improved code reliability and developer experience"
+      ],
+      "icon": "💻"
+    }
+  ],
   "education": [
     {
-      "institution": "Multiple Resources: Online Courses & Self-Study",
+      "location": "Multiple Resources: Online Courses & Self-Study",
       "duration": "2024 - Still Learning",
-      "degree": "Front-End Development Specialization",
+      "title": "Front-End Development Specialization",
       "icon": "💻"
     },
     {
-      "institution": "Amity University, Noida",
+      "location": "Amity University, Noida",
       "duration": "2021 - 2024",
-      "degree": "Bachelor of Computer Applications (BCA)",
+      "title": "Bachelor of Computer Applications (BCA)",
       "icon": "🎓"
     },
     {
-      "institution": "H.S Public School",
+      "location": "H.S Public School",
       "duration": "End in 2020",
-      "degree": "Higher Secondary Certificate",
+      "title": "Higher Secondary Certificate",
       "icon": "🏫"
     }
   ],

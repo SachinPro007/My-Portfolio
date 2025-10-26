@@ -47,7 +47,7 @@ function LeftContent() {
       {/* subtitle */}
       <div className="mt-6 sm:mt-4 max-w-md mx-auto lg:mx-0">
         <p
-          className="text-sm md:text-base max-w-2xl mt-8 md:leading-loose tracking-wide"
+          className="text-sm md:text-base max-w-2xl mt-8"
           style={{ color: themeColors.summeryText }}
         >
           {slide.subtitle}
@@ -64,7 +64,7 @@ function LeftContent() {
               boxShadow: `0 0 15px ${themeColors.primaryColor}4D`,
             }}
           >
-            View My Work
+            Check portfolio
           </button>
         </a>
 
