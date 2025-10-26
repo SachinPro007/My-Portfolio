@@ -1,7 +1,7 @@
 {
   "id": "coding-bundle",
-  "subtitle": "I’m a Next.js Developer passionate about crafting scalable, high-performance web solutions. For me, coding is about solving complex problems while delivering a seamless, effortless user experience.",
-  "badge": "Next.js (Full-Stack) </>",
+  "subtitle": "I specialize in scalable, type-safe solutions using Next.js and TypeScript. For me, coding is about solving complex data flow problems while delivering a seamless, high-performance user experience.",
+  "badge": "Frontend / MERN Stack </>",
   "gradient": "from-green-400 via-cyan-400 to-blue-500",
   "buttonColor": "from-green-500 to-cyan-500",
   "image": "/Sachin-front-end-developer.webp",

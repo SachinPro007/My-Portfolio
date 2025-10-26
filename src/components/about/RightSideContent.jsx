@@ -47,18 +47,17 @@ function RightSideContent() {
               className="text-lg leading-relaxed"
               style={{ color: themeColors.summeryText }}
             >
-              <li><Highlight>Next.js (Full-Stack), React, Redux, and TypeScript:</Highlight> Building fast, type-safe, and scalable applications. I leverage Next.js's server-side capabilities for maximum performance and full-stack solutions.</li>
+              <li><Highlight>Next.js, React, TypeScript</Highlight>: Building type-safe and scalable applications. I leverage Next.js's server-side capabilities for maximum performance and full-stack solutions.</li>
 
-              <li><Highlight>Axios and TanStack Query:</Highlight> Utilizing these for efficient server state management and reliable asynchronous data handling.</li>
+              <li><Highlight>TanStack Query, Redux Toolkit, Context API, Axios</Highlight>: Utilizing these for highly efficient server state management, reliable asynchronous data handling, and optimized caching to speed up applications.</li>
 
-              <li><Highlight>Tailwind CSS, Material UI, and Framer Motion:</Highlight> Expertly crafting clean, animated, and accessible UIs.</li>
+              <li><Highlight>Tailwind CSS, Material UI, Shadcn, Framer Motion, Figma</Highlight>: Expertly crafting clean, animated, and accessible UIs. I guarantee pixel-perfect design fidelity from complex design mockups.</li>
 
-              <li><Highlight>Figma:</Highlight> Proficient in translating design concepts into pixel-perfect user interfaces.</li>
+              <li><Highlight>ESLint, Prettier, Husky, Lint-Staged</Highlight>: I ensure production-grade code quality by enforcing consistent standards and using automated pre-commit checks for superior stability.</li>
 
-              <li><Highlight>JavaScript (ES6+), HTML5, and CSS3:</Highlight> Solid foundation ensuring deep technical understanding.</li>
+              <li><Highlight>MERN Stack, Auth.js, Zod, JWT</Highlight>: I bring essential full-stack context to the frontend, specializing in secure API consumption, comprehensive validation, and advanced authentication flows.</li>
 
-              <li><Highlight>Git and GitHub:</Highlight> Skilled in version control and collaboration for team projects and open-source contributions.</li>
-              <li><Highlight>AI Tools:</Highlight> Integrating modern technologies for enhanced workflows and innovation.</li>
+              <li><Highlight>JavaScript, HTML, CSS, Git, GitHub, AI Tools</Highlight>: A solid foundation in core web technologies, skilled in version control, and integrating modern tools for an accelerated workflow.</li>
             </p>
           </div>
         </div>

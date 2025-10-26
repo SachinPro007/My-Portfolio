@@ -61,7 +61,7 @@ const Footer = () => {
                 className="text-sm uppercase tracking-wider opacity-75"
                 style={{ color: themeColors.summeryText }}
               >
-                Next.js Developer • Scalable Solutions
+                Frontend Developer • Scalable Solutions
               </p>
             </motion.div>
 

@@ -1,6 +1,8 @@
 import React, { memo } from "react";
+import Typewriter from 'typewriter-effect'
 import { useSelector } from "react-redux";
 import slide from "../../data/myInfo.json";
+
 
 function LeftContent() {
   const { themeColors } = useSelector((state) => state.themeReducer);
@@ -29,8 +31,16 @@ function LeftContent() {
           style={{ color: themeColors.text }}
         >
           Hey! I'm{" "}
-          <span style={{ color: themeColors.primaryColor }}>Sachin</span>
-          , a Full-Stack Next.js Developer.
+          <span style={{ color: themeColors.primaryColor }}>Sachin</span>, a{" "}
+          <span>
+            <Typewriter
+              options={{
+                strings: ["Frontend", "MERN Stack"],
+                autoStart: true,
+                loop: true,
+              }}
+            />
+          </span>Developer.
         </h1>
       </div>
 
@@ -43,7 +53,7 @@ function LeftContent() {
           {slide.subtitle}
         </p>
       </div>
-      
+
       {/* buttons  */}
       <div className="mt-8 flex flex-wrap justify-center lg:justify-start sm:flex-row gap-4">
         <a href="/#projects">

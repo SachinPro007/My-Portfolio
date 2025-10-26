@@ -1,46 +1,50 @@
 [
   {
     "question": "What technologies do you specialize in?",
-    "answer": "I specialize in the modern Next.js ecosystem, building high-performance, full-stack applications with React and TypeScript. My core stack includes Next.js, Redux, TanStack Query, Tailwind CSS, and Framer Motion. I also utilize Axios for dependable data fetching and Figma for design translation."
+    "answer": "I specialize in the modern Next.js ecosystem with full-stack capabilities, building high-performance applications using TypeScript, React, and the MERN stack. My core expertise includes Next.js with App Router, TypeScript for type safety, TanStack Query for server state management, Redux Toolkit for global state, and Tailwind CSS with Material UI/Shadcn for responsive UI development."
   },
   {
     "question": "What kind of projects have you built?",
-    "answer": "I focus on projects that reflect real-world use and showcase my full-stack capability. Currently, I highlight: My personal Portfolio (performance-optimized), a full-featured eCommerce frontend, and an Employee Task Management App (with role-based dashboards). I'm also always developing new Next.js and TypeScript projects to explore architectural patterns."
+    "answer": "I've built production-grade full-stack applications including a Secure Todo Application with custom authentication and MySQL integration, a performance-optimized Portfolio with custom theming, and ShopEase E-Commerce with advanced features like debounced search and real-time cart synchronization. I'm currently developing a comprehensive MERN application with Next.js and TypeScript."
   },
   {
     "question": "Do you have experience with state management?",
-    "answer": "Yes. For complex global state, I use Redux. Crucially, for efficient server state and data fetching, I rely on TanStack Query, which is essential for high-performance applications."
+    "answer": "Yes, I have comprehensive state management experience. I use Redux Toolkit for complex global state and TanStack Query for efficient server state management, caching, and data fetching. I've implemented state solutions that reduced API calls by 40% while maintaining data integrity in eCommerce applications."
   },
   {
     "question": "Are your projects mobile responsive?",
-    "answer": "Absolutely! I prioritize mobile-first, responsive design as standard practice, utilizing Tailwind CSS and Material UI to guarantee a seamless and accessible experience on any device."
+    "answer": "Absolutely! I follow mobile-first responsive design principles using Tailwind CSS, Material UI, and Shadcn components. All my projects guarantee seamless experiences across all devices while maintaining 90+ Lighthouse performance scores."
   },
   {
     "question": "Have you used animation in your projects?",
-    "answer": "Definitely. I use Framer Motion to craft fluid, meaningful transitions that enhance the user experience without sacrificing page performance."
+    "answer": "Yes, I extensively use Framer Motion to create engaging, performance-optimized animations. My portfolio features custom scroll effects, hover reveals, and smooth transitions crafted from scratch to enhance user experience without compromising performance."
   },
   {
-    "question": "How do you handle version control in your projects?",
-    "answer": "Git and GitHub are integral to my workflow. I strictly adhere to best practices like feature branching, pull requests, and semantic commit messages to ensure clean, maintainable, and collaborative codebases."
+    "question": "How do you ensure code quality in your projects?",
+    "answer": "I implement professional code quality pipelines using ESLint, Prettier, Husky, and lint-staged for automated pre-commit checks. This CI/CD-ready approach ensures consistent, maintainable code standards and prevents quality regressions in production applications."
   },
   {
-    "question": "Have you integrated any APIs?",
-    "answer": "Yes. I handle API integration using Axios and rely on TanStack Query to streamline complex data fetching, caching, and updates, optimizing application speed and user experience."
+    "question": "Do you have full-stack development experience?",
+    "answer": "Yes, I have full-stack MERN experience with Next.js. I've built secure applications with custom authentication systems using Auth.js, Google OAuth, and implemented security measures like HMAC verification, Bcrypt hashing, and JWT tokens. I'm proficient with MongoDB, Express.js, and Node.js in the Next.js ecosystem."
   },
   {
-    "question": "Do you have experience with backend technologies?",
-    "answer": "Yes. As a Full-Stack Next.js Developer, I am experienced in creating and consuming backend logic. I build API Routes within Next.js and understand database integration and server-side logic required for truly scalable applications."
+    "question": "How do you handle API development and validation?",
+    "answer": "I use Next.js Server Actions and Route Handlers for API development, with comprehensive validation using Zod for both API and form validation. I implement intelligent access control through Next.js Middleware and maintain proper environment separation for production-grade applications."
   },
   {
-    "question": "Do you have any experience with AI or Machine Learning?",
-    "answer": "While I don't build ML models, I strategically integrate AI tools into my development workflow for tasks like code optimization, debugging, and productivity, ensuring a modern and efficient development process."
+    "question": "What's your approach to authentication and security?",
+    "answer": "I implement robust authentication systems including custom cookie-based sessions with HMAC verification, Bcrypt for password hashing, and OAuth integrations. I focus on user data isolation and security best practices, ensuring tamper-proof session management in production applications."
   },
   {
-    "question": "How do you stay updated with the latest technologies?",
-    "answer": "I maintain continuous learning by actively following tech leaders, contributing to GitHub trends, reading documentation, and building new side projects—focusing specifically on Next.js and performance optimizations."
+    "question": "How do you optimize application performance?",
+    "answer": "I optimize performance through TanStack Query caching strategies, code splitting, and efficient state management. My eCommerce project achieved 90+ Lighthouse scores and sub-second load times by reducing API calls by 40% through intelligent caching and debounced search implementations."
   },
   {
-    "question": "What are you currently improving?",
-    "answer": "I am constantly improving my knowledge of performance engineering and advanced architectural patterns within the Next.js App Router to deliver even more efficient and complex full-stack solutions...."
+    "question": "Do you work with databases?",
+    "answer": "Yes, I have experience with both MongoDB in the MERN stack and external MySQL databases. I've implemented proper data modeling, relationships, and efficient querying patterns in my full-stack applications, ensuring data integrity and performance."
+  },
+  {
+    "question": "What are you currently learning or improving?",
+    "answer": "I'm continuously advancing my knowledge in Next.js App Router patterns, performance engineering, and advanced full-stack architecture. I'm currently developing a comprehensive MERN application with production-grade workflows and exploring advanced security implementations and scalable application patterns."
   }
 ]

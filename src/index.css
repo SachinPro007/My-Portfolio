@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+.Typewriter {
+  display: inline;
+}
 
 
 /* Animation styles */

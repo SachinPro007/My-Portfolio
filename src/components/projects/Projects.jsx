@@ -9,7 +9,7 @@ const projects = [
     subtitle: "Coming Soon",
     description:
       "I'm currently building something exciting that I can't wait to share. Once it's live, this section will be updated with full project details. The initial code will be pushed to GitHub — stay tuned for the launch!",
-    tags: ["In Progress", "Next.js", "TypeScript"],
+    tags: ["Ongoing","MERN Stack", "Next.js", "TypeScript"],
     image: "/comingSoon.webp",
     liveDemo: "#",
     githubRepo: "#",

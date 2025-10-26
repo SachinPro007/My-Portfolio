@@ -9,38 +9,24 @@ const SkillsSection = () => {
 
   const techCategories = {
     frontend: {
-      title: "FrontEnd",
-      description: "Technologies for building responsive, interactive UIs",
+      title: "FrontEnd Architecture & UI",
+      description:
+        "Technologies for building type-safe, responsive, and high-performance user interfaces.",
       icons: [
         {
-          name: "HTML",
-          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-          tooltipColor: "#E34F26",
+          name: "Next.js",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+          tooltipColor: "#000000",
         },
         {
-          name: "CSS",
-          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-          tooltipColor: "#1572B6",
-        },
-        {
-          name: "JavaScript",
-          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-          tooltipColor: "#F7DF1E",
+          name: "React.js",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+          tooltipColor: "#61DAFB",
         },
         {
           name: "TypeScript",
           src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
           tooltipColor: "#3178C6",
-        },
-        {
-          name: "React",
-          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-          tooltipColor: "#61DAFB",
-        },
-        {
-          name: "Next.js",
-          src: "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/nextjs/nextjs-original.svg",
-          tooltipColor: "#000000",
         },
         {
           name: "Tailwind CSS",
@@ -53,9 +39,14 @@ const SkillsSection = () => {
           tooltipColor: "#0081CB",
         },
         {
+          name: "Shadcn/ui",
+          src: "https://avatars.githubusercontent.com/u/139895814?s=48&v=4",
+          tooltipColor: "#000000",
+        },
+        {
           name: "Framer Motion",
           src: "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/framermotion/framermotion-original.svg",
-          tooltipColor: "#FF0090",
+          tooltipColor: "#FF0099",
         },
         {
           name: "Redux/RTK",
@@ -64,35 +55,58 @@ const SkillsSection = () => {
         },
         {
           name: "Axios",
-          src: "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/axios/axios-plain.svg",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain.svg",
           tooltipColor: "#5A29E4",
         },
+      ],
+    },
+    backend: {
+      title: "MERN Stack & Security",
+      description:
+        "Server-side and security technologies for full-stack capability.",
+      icons: [
         {
-          name: "TanStack Query",
-          src: "https://raw.githubusercontent.com/TanStack/query/main/media/emblem-light.svg",
-          tooltipColor: "#FF4154",
+          name: "MongoDB",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+          tooltipColor: "#47A248",
+        },
+        {
+          name: "Express.js",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+          tooltipColor: "#000000",
+        },
+        {
+          name: "Node.js",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+          tooltipColor: "#339933",
+        },
+        {
+          name: "Auth.js",
+          src: "https://authjs.dev/img/etc/logo-sm.webp",
+          tooltipColor: "#000000",
+        },
+        {
+          name: "Zod",
+          src: "https://raw.githubusercontent.com/colinhacks/zod/HEAD/logo.svg",
+          tooltipColor: "#3E67A6",
+        },
+        {
+          name: "Bcrypt",
+          src: "",
+          tooltipColor: "#000000",
+        },
+        {
+          name: "JWT",
+          src: "https://jwt.io/img/pic_logo.svg",
+          tooltipColor: "#000000",
         },
       ],
     },
     other: {
-      title: "Tools & Platforms",
-      description: "Complementary tools and platforms",
+      title: "Tools & Professional Workflow",
+      description:
+        "Complementary tools and platforms for code quality and collaboration.",
       icons: [
-        {
-          name: "Figma",
-          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
-          tooltipColor: "#F24E1E",
-        },
-        {
-          name: "VS Code",
-          src: "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/vscode/vscode-original.svg",
-          tooltipColor: "#007ACC",
-        },
-        {
-          name: "AI Tools",
-          src: "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/illustrator/illustrator-plain.svg",
-          tooltipColor: "#FF9A00",
-        },
         {
           name: "Git",
           src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
@@ -102,6 +116,46 @@ const SkillsSection = () => {
           name: "GitHub",
           src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
           tooltipColor: "#181717",
+        },
+        {
+          name: "ESLint",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg",
+          tooltipColor: "#4B32C3",
+        },
+        {
+          name: "Prettier",
+          src: "https://prettier.io/icon.png",
+          tooltipColor: "#F7B93E",
+        },
+        {
+          name: "Husky",
+          src: "",
+          tooltipColor: "#000000",
+        },
+        {
+          name: "TanStack Query",
+          src: "https://raw.githubusercontent.com/TanStack/query/main/media/emblem-light.svg",
+          tooltipColor: "#FF4154",
+        },
+        {
+          name: "Figma",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+          tooltipColor: "#F24E1E",
+        },
+        {
+          name: "Postman",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg",
+          tooltipColor: "#FF6C37",
+        },
+        {
+          name: "Lint-Staged",
+          src: "https://avatars.githubusercontent.com/u/142687600?s=48&v=4",
+          tooltipColor: "#000000",
+        },
+        {
+          name: "AI Tools",
+          src: "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/illustrator/illustrator-plain.svg",
+          tooltipColor: "#FF6F00",
         },
       ],
     },

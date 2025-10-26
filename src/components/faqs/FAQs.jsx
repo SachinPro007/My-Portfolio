@@ -17,7 +17,7 @@ const FAQSection = () => {
   const sectionRef = useRef(null);
   const [cursor, setCursor] = useState({ x: 0, y: 0 });
   const [open, setOpen] = useState(false);
-  
+    
   
 
   useEffect(() => {
@@ -107,37 +107,54 @@ const FAQSection = () => {
 };
 
 const FAQItem = ({ faq, themeColors, index, open, setOpen }) => {
-  const keywords = [
-    "Yes. As a Full-Stack Next.js Developer",
-    "I build API Routes within Next.js",
-    "understand database integration",
-    "understand database integration",
-    "server-side logic",
-    "don't build ML models",
-    "integrate AI tools into my development workflow",
-    "building new side projects",
-    "reading documentation",
-    "contributing to GitHub trends",
-    "tech leaders",
-    "performance engineering",
-    "advanced architectural patterns",
-    "Next.js App Router to deliver even more efficient and complex full-stack solutions",
+  const keywords = [    
+    "Next.js Server Actions",
     "Next.js ecosystem",
-    "React",
+    "Next.js Middleware",
+    "Route Handlers",
+    "full-stack capabilities",
+    "TanStack Query caching strategies",
+    "efficient state management",
+    "Next.js App Router patterns",
+    "MERN application with production-grade workflows",
+    "advanced full-stack architecture",
+    "both MongoDB in the MERN stack and external MySQL databases",
+    "code splitting",
     "TypeScript",
-    "Figma",
-    "Axios",
-    "Framer Motion",
-    "Tailwind CSS",
-    "Redux",
-    "My personal Portfolio",
-    "a full-featured eCommerce frontend",
-    "an Employee Task Management App",
-    "developing new Next.js and TypeScript projects",
-    "I use Redux",
+    "React",
+    "Zod",
+    "MySQL",
+    "MERN stack",
+    "Next.js",
     "TanStack Query",
-    ""
-
+    "Redux Toolkit",
+    "Tailwind CSS",
+    "Material UI",
+    "Shadcn components",
+    "Framer Motion",
+    "Material UI/Shadcn",
+    "ESLint",
+    "Prettier",
+    "Husky",
+    "Auth.js",
+    "Google OAuth",
+    "HMAC verification",
+    "Bcrypt hashing",
+    "JWT tokens",
+    "MongoDB",
+    "Express.js",
+    "Node.js",
+    "lint-staged",
+    "CI/CD-ready approach",
+    "MERN application",
+    "custom cookie-based sessions",
+    "Bcrypt for password hashing",
+    "OAuth integrations",
+    "full-stack MERN experience",
+    "built production-grade full-stack applications",
+    "Secure Todo Application with custom authentication",
+    "Portfolio with custom theming",
+    "ShopEase E-Commerce with advanced features",
   ];
 
   return (
