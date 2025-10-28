@@ -7,11 +7,11 @@
   "image": "/Sachin-front-end-developer.webp",
   "experience": [
     {
-      "title": "Frontend Developer - Mentored by Senior Developer",
-      "location": "Remote | Part-time",
+      "title": "Collaborating with Senior Backend Developer on Multiple Client Projects",
+      "location": "Freelance/Contract React Frontend Developer",
       "duration": "Jul 2025 - Sep 2025",
       "description": [
-        "Built React applications with TypeScript, creating reusable and type-safe components Maintained high code quality using ESLint, Prettier and Git version control Implemented state management using React Context API and custom hooks Transformed Figma designs into responsive, functional user interfaces Developed expertise in TypeScript for improved code reliability and developer experience"
+        "Delivered production-grade UIs for multiple client applications using React.js and TypeScript. Drove performance by implementing advanced TanStack Query caching and Redux Toolkit, while achieving 100% design fidelity by rapidly translating Figma mockups to responsive interfaces using Tailwind CSS. Ensured code quality and maintainability through a professional workflow (Husky, ESLint, Prettier) and efficiently integrated Axios with backend APIs."
       ],
       "icon": "💻"
     }

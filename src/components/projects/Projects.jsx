@@ -16,10 +16,10 @@ const projects = [
     projectColor: "#9333ea",
   },
   {
-    title: "Secure Todo Application",
-    subtitle: "Next.js Full-Stack Project",
+    title: "NextJs Full-Stack Application",
+    subtitle: "Secure & production-grade workflow",
     description:
-      "Full-stack To-Do application built with Next.js 15 (App Router). This project serves as a comprehensive showcase of modern, secure architecture and full-stack implementation, going far beyond basic task management. And The primary focus of this application is on security, data isolation, and advanced user management, ensuring every user's data is private and secure.",
+      "Built a production-grade application on Next.js (Server Actions/Route Handlers) and external MySQL. This project serves as a comprehensive showcase of modern, secure architecture and full-stack implementation, going far beyond basic task management. And The primary focus of this application is on security, data isolation, and advanced user management, ensuring every user's data is private and secure.",
     tags: [
       "Next.js",
       "MySQL",
@@ -38,7 +38,7 @@ const projects = [
     projectColor: "#432dd7",
   },
   {
-    title: "My Portfolio",
+    title: "Modern Portfolio",
     subtitle: "Sachin - Frontend Developer",
     description:
       "Designed and built a fully custom, animation-rich portfolio to leave a strong first impression with  custom theme controls: light/dark toggle + custom color, so visitors can personalize their experience...!",
@@ -57,7 +57,7 @@ const projects = [
   },
   {
     title: "ShopEase",
-    subtitle: "E-Commerce Site",
+    subtitle: "E-Commerce Site - Frontend",
     description:
       "Built a blazing-fast eCommerce site from scratch—streamlined product discovery and checkout for a seamless user journey. Achieved 90+ Lighthouse scores with sub-second load times.",
     tags: [
