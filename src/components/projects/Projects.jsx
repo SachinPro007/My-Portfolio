@@ -16,6 +16,30 @@ const projects = [
     projectColor: "#9333ea",
   },
   {
+    title: "Ezensi - Ai Blog Platform (Ongoing)",
+    subtitle: " Next.js Full-Stack Blog Platform",
+    description:
+      "Ezensi is a high-performance, full-stack AI Content Platform built with Next.js 16 (App Router) and Convex. The application showcases expertise in combining front-end speed and type-safety (TypeScript, Tailwind CSS 4) with modern serverless backend architecture. Ezensi's primary focus is accelerating the content lifecycle, offering an AI Writing Studio and intelligent scheduling, resulting in a potential 10x speed increase in content production for creators, all while managing users and roles securely via Clerk authentication.",
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "Convex",
+      "Ai Integration",
+      "Clerk",
+      "Zod",
+      "ESLint",
+      "Prettier",
+      "Husky",
+      "Lint-Staged",
+      "Tailwind",
+      "Shadcn",
+    ],
+    image: "/Ai-Blog-Platform.png",
+    liveDemo: "https://ezensi.vercel.app/",
+    githubRepo: "https://github.com/SachinPro007/nextjs_full_stack_ai",
+    projectColor: "#e60076",
+  },
+  {
     title: "NextJs Full-Stack Application",
     subtitle: "Secure & production-grade workflow",
     description:

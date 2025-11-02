@@ -127,7 +127,7 @@ const Header = () => {
         </nav>
         {/* Action Buttons */}
         <div className="flex items-center gap-4">
-          <a href="/sachinSehrawat.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="/sachin-resume.pdf" target="_blank" rel="noopener noreferrer">
             <button
               className="hidden md:flex items-center gap-2 px-6 py-2 rounded-full font-semibold text-white hover:shadow-lg transition-all duration-300 cursor-pointer"
               style={{
@@ -300,7 +300,7 @@ const Header = () => {
                   ))}
 
                   <motion.a
-                    href="/sachinSehrawat.pdf"
+                    href="/sachin-resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block"

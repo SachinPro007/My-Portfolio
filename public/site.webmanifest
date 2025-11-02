@@ -1,11 +1,11 @@
 {
-  "name": "Sachin Sehrawat | Front-End Developer",
+  "name": "Sachin Sehrawat | Next.js & TypeScript Developer",
   "short_name": "Sachin",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#121212", 
   "theme_color": "#F28C26", 
-  "description": "Portfolio of Sachin Sehrawat — a modern front-end developer building fast, accessible, and responsive web experiences with React and Tailwind CSS.",
+  "description": "Portfolio of Sachin Sehrawat — a Next.js/TypeScript Developer building high-performance, type-safe, and secure web applications, specialized in Tailwind CSS and modern full-stack architectures.",
   "orientation": "portrait",
   "icons": [
     {
