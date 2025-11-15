@@ -1,38 +1,39 @@
 {
   "id": "coding-bundle",
-  "subtitle": "I specialize in scalable, type-safe solutions using Next.js and TypeScript. For me, coding is about solving complex data flow problems while delivering a seamless, high-performance user experience.",
+  "subtitle": "I build high-performance, type-safe applications with Next.js and TypeScript. I turn complex data flow challenges into seamless user experiences, delivering 90+ Lighthouse scores and production-ready, stable code.",
   "badge": "Frontend / MERN Stack </>",
   "gradient": "from-green-400 via-cyan-400 to-blue-500",
   "buttonColor": "from-green-500 to-cyan-500",
   "image": "/Sachin-front-end-developer.webp",
   "experience": [
     {
-      "title": "Collaborating with Senior Backend Developer on Multiple Client Projects",
-      "location": "Freelance/Contract React Frontend Developer",
-      "duration": "Jul 2025 - Sep 2025",
+      "title": "Collaborating with Backend Developer on Freelance Projects ",
+      "location": "Freelance Frontend Developer",
+      "duration": "Jul 2025 - Present",
       "description": [
-        "Delivered production-grade UIs for multiple client applications using React.js and TypeScript. Drove performance by implementing advanced TanStack Query caching and Redux Toolkit, while achieving 100% design fidelity by rapidly translating Figma mockups to responsive interfaces using Tailwind CSS. Ensured code quality and maintainability through a professional workflow (Husky, ESLint, Prettier) and efficiently integrated Axios with backend APIs."
+        "Engineered production-grade, type-safe UIs for multiple clients using React.js, Next.js, and TypeScript, owning the complete client-side data layer with TanStack Query.",
+        "Established professional code-quality pipelines (Husky, ESLint) and partnered with a Senior Backend Developer to build and deploy high-performance components from API specs."
       ],
       "icon": "💻"
     }
   ],
   "education": [
     {
-      "location": "Multiple Resources: Online Courses & Self-Study",
+      "location": "Advanced Frontend Development (React, Next.js, System Design)",
       "duration": "2024 - Still Learning",
-      "title": "Front-End Development Specialization",
+      "title": "Self-Paced Specialization",
       "icon": "💻"
     },
     {
-      "location": "Amity University, Noida",
+      "location": "Bachelor of Computer Applications (BCA)",
       "duration": "2021 - 2024",
-      "title": "Bachelor of Computer Applications (BCA)",
+      "title": "Amity University, Noida",
       "icon": "🎓"
     },
     {
-      "location": "H.S Public School",
+      "location": "Higher Secondary Certificate",
       "duration": "End in 2020",
-      "title": "Higher Secondary Certificate",
+      "title": "H.S Public School",
       "icon": "🏫"
     }
   ],

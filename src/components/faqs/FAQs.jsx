@@ -108,6 +108,7 @@ const FAQSection = () => {
 
 const FAQItem = ({ faq, themeColors, index, open, setOpen }) => {
   const keywords = [    
+    "Auth.js, Bcrypt, and JWTs",
     "Next.js Server Actions",
     "Next.js ecosystem",
     "Next.js Middleware",
@@ -119,8 +120,18 @@ const FAQItem = ({ faq, themeColors, index, open, setOpen }) => {
     "MERN application with production-grade workflows",
     "advanced full-stack architecture",
     "both MongoDB in the MERN stack and external MySQL databases",
+    "AI-Native Blog Platform",
+    "Google's GenAI SDKs",
+    "eCommerce UI with advanced caching",
+    "full-stack application",
     "code splitting",
+    "ShopEase",
+    "Shadcn",
+    "Clerk",
+    "Express",
     "TypeScript",
+    "Convex",
+    "Ezensi",
     "React",
     "Zod",
     "MySQL",

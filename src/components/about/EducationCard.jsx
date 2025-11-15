@@ -70,12 +70,14 @@ function EducationCard({ item }) {
           </span>
 
           {item.description && (
-            <p
-              className="text-sm mt-2 flex items-center"
+            <ol
+              className="text-sm mt-2 "
               style={{ color: themeColors.summeryText }}
             >
-              {item.description}
-            </p>
+              {item.description.map((point, i) => (
+                <li key={i}>{point}</li>
+              ))}              
+            </ol>
           )}
         </div>
       </div>

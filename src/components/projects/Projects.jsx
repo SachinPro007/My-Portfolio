@@ -5,22 +5,20 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
   {
-    title: "Upcoming Project",
-    subtitle: "Coming Soon",
-    description:
-      "I'm currently building something exciting that I can't wait to share. Once it's live, this section will be updated with full project details. The initial code will be pushed to GitHub — stay tuned for the launch!",
-    tags: ["Ongoing","MERN Stack", "Next.js", "TypeScript"],
-    image: "/comingSoon.webp",
-    liveDemo: "#",
-    githubRepo: "#",
-    projectColor: "#9333ea",
+    "title": "Upcoming MERN Stack Project",
+    "subtitle": "Coming Soon",
+    "description": "I'm currently architecting a new, full-stack MERN application with a Next.js 16 frontend. This project will focus on scalable real-time features and advanced backend architecture. The initial code will be pushed to GitHub soon — stay tuned!",
+    "tags": ["Ongoing", "MERN Stack", "Next.js", "TypeScript"],
+    "image": "/comingSoon.webp",
+    "liveDemo": "#",
+    "githubRepo": "#",
+    "projectColor": "#9333ea"
   },
   {
-    title: "Ezensi - Ai Blog Platform (Ongoing)",
-    subtitle: " Next.js Full-Stack Blog Platform",
-    description:
-      "Ezensi is a high-performance, full-stack AI Content Platform built with Next.js 16 (App Router) and Convex. The application showcases expertise in combining front-end speed and type-safety (TypeScript, Tailwind CSS 4) with modern serverless backend architecture. Ezensi's primary focus is accelerating the content lifecycle, offering an AI Writing Studio and intelligent scheduling, resulting in a potential 10x speed increase in content production for creators, all while managing users and roles securely via Clerk authentication.",
-    tags: [
+    "title": "Ezensi - Ai Blog Platform (Ongoing)",
+    "subtitle": "Next.js Full-Stack Blog Platform",
+    "description": "Ezensi is a high-performance, full-stack AI Content Platform built with Next.js 16 (App Router) and Convex. The application showcases expertise in combining front-end speed and type-safety (TypeScript, Tailwind CSS 4) with modern serverless backend architecture. Ezensi's primary focus is accelerating the content lifecycle, offering an AI Writing Studio and intelligent scheduling, resulting in a potential 10x speed increase in content production for creators, all while managing users and roles securely via Clerk authentication.",
+    "tags": [
       "Next.js",
       "TypeScript",
       "Convex",
@@ -32,19 +30,18 @@ const projects = [
       "Husky",
       "Lint-Staged",
       "Tailwind",
-      "Shadcn",
+      "Shadcn"
     ],
-    image: "/Ai-Blog-Platform.png",
-    liveDemo: "https://ezensi.vercel.app/",
-    githubRepo: "https://github.com/SachinPro007/nextjs_full_stack_ai",
-    projectColor: "#e60076",
+    "image": "/Ai-Blog-Platform.png",
+    "liveDemo": "https://ezensi.vercel.app/",
+    "githubRepo": "https://github.com/SachinPro007/nextjs_full_stack_ai",
+    "projectColor": "#e60076"
   },
   {
-    title: "NextJs Full-Stack Application",
-    subtitle: "Secure & production-grade workflow",
-    description:
-      "Built a production-grade application on Next.js (Server Actions/Route Handlers) and external MySQL. This project serves as a comprehensive showcase of modern, secure architecture and full-stack implementation, going far beyond basic task management. And The primary focus of this application is on security, data isolation, and advanced user management, ensuring every user's data is private and secure.",
-    tags: [
+    "title": "NextJs Full-Stack Application",
+    "subtitle": "Advanced Security & Architecture Demo",
+    "description": "This project uses a simple 'Todo App' concept to demonstrate a complex, production-grade architecture. Built on Next.js (Server Actions) and MySQL, the focus is on advanced, tamper-proof security, custom HMAC cookie-based auth, and strict user data isolation—proving how to build a multi-tenant application securely from scratch.",
+    "tags": [
       "Next.js",
       "MySQL",
       "Auth.js",
@@ -54,37 +51,35 @@ const projects = [
       "ESLint",
       "Prettier",
       "Husky",
-      "Lint-Staged",
+      "Lint-Staged"
     ],
-    image: "/Full_Stack_Todo.webp",
-    liveDemo: "https://full-stack-todo-gray.vercel.app/",
-    githubRepo: "https://github.com/SachinPro007/full_stack_todo",
-    projectColor: "#432dd7",
+    "image": "/Full_Stack_Todo.webp",
+    "liveDemo": "https://full-stack-todo-gray.vercel.app/",
+    "githubRepo": "https://github.com/SachinPro007/full_stack_todo",
+    "projectColor": "#432dd7"
   },
   {
-    title: "Modern Portfolio",
-    subtitle: "Sachin - Frontend Developer",
-    description:
-      "Designed and built a fully custom, animation-rich portfolio to leave a strong first impression with  custom theme controls: light/dark toggle + custom color, so visitors can personalize their experience...!",
-    tags: [
+    "title": "Modern Portfolio",
+    "subtitle": "Sachin - Frontend Developer",
+    "description": "Designed and built a fully custom, animation-rich portfolio to leave a strong first impression with custom theme controls: light/dark toggle + custom color, so visitors can personalize their experience...!",
+    "tags": [
       "React",
       "Tailwind CSS",
       "Framer Motion",
       "Context API",
       "Email Js",
-      "AI",
+      "AI"
     ],
-    image: "/My-Portfolio.webp",
-    liveDemo: "#",
-    githubRepo: "https://github.com/SachinPro007/My-Portfolio",
-    projectColor: "#EA580C",
+    "image": "/My-Portfolio.webp",
+    "liveDemo": "https://sachinpro.vercel.app/",
+    "githubRepo": "https://github.com/SachinPro007/My-Portfolio",
+    "projectColor": "#EA580C"
   },
   {
-    title: "ShopEase",
-    subtitle: "E-Commerce Site - Frontend",
-    description:
-      "Built a blazing-fast eCommerce site from scratch—streamlined product discovery and checkout for a seamless user journey. Achieved 90+ Lighthouse scores with sub-second load times.",
-    tags: [
+    "title": "ShopEase",
+    "subtitle": "E-Commerce Site - Frontend",
+    "description": "Built a blazing-fast eCommerce site from scratch—streamlined product discovery and checkout for a seamless user journey. Achieved 90+ Lighthouse scores with sub-second load times.",
+    "tags": [
       "React",
       "JavaScript",
       "Redux Toolkit",
@@ -94,30 +89,29 @@ const projects = [
       "Axios",
       "React Router",
       "React Toastify",
-      "React Slick",
+      "React Slick"
     ],
-    image: "/ecommerce.webp",
-    liveDemo: "https://shopease-ecomm.netlify.app",
-    githubRepo: "https://github.com/SachinPro007/ShopEase_E-Commerce",
-    projectColor: "#d51243",
+    "image": "/ecommerce.webp",
+    "liveDemo": "https://shopease-ecomm.netlify.app",
+    "githubRepo": "https://github.com/SachinPro007/ShopEase_E-Commerce",
+    "projectColor": "#d51243"
   },
   {
-    title: "ClickTask",
-    subtitle: " Employee Task Management",
-    description:
-      "Built a responsive task management app with role-based dashboards, real-time updates, and smart alerts—all running without a backend. Designed for a smooth UX with dark mode, toast notifications, and polished UI transitions.",
-    tags: [
+    "title": "ClickTask",
+    "subtitle": "Employee Task Management",
+    "description": "Built a responsive task management app with role-based dashboards, real-time updates, and smart alerts—all running without a backend. Designed for a smooth UX with dark mode, toast notifications, and polished UI transitions.",
+    "tags": [
       "React",
       "JavaScript",
       "Tailwind CSS",
       "Context APi",
-      "React Toastify",
+      "React Toastify"
     ],
-    image: "/ems.webp",
-    liveDemo: "https://click-task.netlify.app",
-    githubRepo: "https://github.com/SachinPro007/ClickTask",
-    projectColor: "#2563eb",
-  },
+    "image": "/ems.webp",
+    "liveDemo": "https://click-task.netlify.app",
+    "githubRepo": "https://github.com/SachinPro007/ClickTask",
+    "projectColor": "#2563eb"
+  }
 ];
 
 const ProjectTimeline = () => {
