@@ -7,21 +7,21 @@
   "image": "/Sachin-front-end-developer.webp",
   "experience": [
     {
-      "title": "Collaborating with Backend Developer on Freelance Projects ",
+      "title": " Collaborating with Backend Developer on Client Projects",
       "location": "Freelance Frontend Developer",
       "duration": "Jul 2025 - Present",
       "description": [
-        "Engineered production-grade, type-safe UIs for multiple clients using React.js, Next.js, and TypeScript, owning the complete client-side data layer with TanStack Query.",
-        "Established professional code-quality pipelines (Husky, ESLint) and partnered with a Senior Backend Developer to build and deploy high-performance components from API specs."
+        "Delivered 3 production-grade client projects, achieving a 20% reduction in page load times by implementing Next.js optimization techniques, fully type-safe UIs using TypeScript and TanStack Query.",
+        "Partnered with backend developers to integrate complex RESTful APIs, establishing a professional workflow with Husky and ESLint to maintain code consistency."
       ],
       "icon": "💻"
     }
   ],
   "education": [
     {
-      "location": "Advanced Frontend Development (React, Next.js, System Design)",
-      "duration": "2024 - Still Learning",
-      "title": "Self-Paced Specialization",
+      "location": "Advanced Frontend Development (React, Next.js, System Design, Mern Stack or meny more)",
+      "duration": "2024 - Present",
+      "title": "Self-Paced Specialization or Online Courses",
       "icon": "💻"
     },
     {
