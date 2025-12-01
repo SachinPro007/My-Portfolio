@@ -47,17 +47,45 @@ function RightSideContent() {
               className="text-lg leading-relaxed"
               style={{ color: themeColors.summeryText }}
             >
-              <li><Highlight>Next.js, React, TypeScript</Highlight>: Building type-safe and scalable applications. I leverage Next.js's server-side capabilities for maximum performance and full-stack solutions.</li>
+              <li>
+                <Highlight>Next.js, React, TypeScript</Highlight>: Architecting
+                type-safe, scalable frontend applications. I leverage Next.js
+                Server Actions and SSR for maximum performance and SEO.
+              </li>
 
-              <li><Highlight>TanStack Query, Redux Toolkit, Context API, Axios</Highlight>: Utilizing these for highly efficient server state management, reliable asynchronous data handling, and optimized caching to speed up applications.</li>
+              <li>
+                <Highlight>MERN Stack, MongoDB, Node.js, Convex</Highlight>:
+                Building robust backend architectures. I specialize in both
+                traditional REST APIs (Express/Mongo) and modern serverless
+                backends for flexible full-stack solutions.
+              </li>
 
-              <li><Highlight>Tailwind CSS, Material UI, Shadcn, Framer Motion, Figma</Highlight>: Expertly crafting clean, animated, and accessible UIs. I guarantee pixel-perfect design fidelity from complex design mockups.</li>
+              <li>
+                <Highlight>Docker, CI/CD, Render</Highlight>:{" "}
+                <span className="font-semibold text-green-500">(New)</span>{" "}
+                Transforming code into production-ready containers. I build
+                multi-stage Docker images and automated deployment pipelines for
+                consistent delivery.
+              </li>
 
-              <li><Highlight>ESLint, Prettier, Husky, Lint-Staged</Highlight>: I ensure production-grade code quality by enforcing consistent standards and using automated pre-commit checks for superior stability.</li>
+              <li>
+                <Highlight>TanStack Query, Redux Toolkit, Zod</Highlight>:
+                Managing complex server state and enforcing strict data
+                validation. I ensure robust data flow with optimized caching and
+                type integrity.
+              </li>
 
-              <li><Highlight>MERN Stack, Auth.js, Zod, JWT</Highlight>: I bring essential full-stack context to the frontend, specializing in secure API consumption, comprehensive validation, and advanced authentication flows.</li>
+              <li>
+                <Highlight>Tailwind CSS, Shadcn UI, Framer Motion</Highlight>:
+                Expertly crafting clean, animated, and accessible UIs. I
+                guarantee pixel-perfect fidelity from complex Figma mockups.
+              </li>
 
-              <li><Highlight>JavaScript, HTML, CSS, Git, GitHub, AI Tools</Highlight>: A solid foundation in core web technologies, skilled in version control, and integrating modern tools for an accelerated workflow.</li>
+              <li>
+                <Highlight>ESLint, Husky, Lint-Staged</Highlight>: I ensure
+                enterprise-grade code quality by enforcing consistent standards
+                and using automated pre-commit checks to prevent bugs.
+              </li>
             </p>
           </div>
         </div>
@@ -102,7 +130,7 @@ function RightSideContent() {
             Upcoming Learning Goals
           </h4>
           <div className="flex flex-wrap gap-2">
-            {["Advance Frontend Tools"].map((item, i) => (
+            {["Frontend Specialization", "Modern Web Development"].map((item, i) => (
               <span
                 key={i}
                 className="px-3 py-1 text-xs font-medium rounded-full"

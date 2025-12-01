@@ -19,9 +19,9 @@
   ],
   "education": [
     {
-      "location": "Advanced Frontend Development (React, Next.js, System Design, Mern Stack or meny more)",
+      "location": "Dedicated full-time effort to mastering modern technologies with professional coding standards.",
       "duration": "2024 - Present",
-      "title": "Self-Paced Specialization or Online Courses",
+      "title": "Frontend Specialization & Modern Web Development ",
       "icon": "💻"
     },
     {
@@ -46,11 +46,11 @@
       "tooltipColor": "#764ABC"
     },
     {
-      "name": "React Router",
-      "src": "https://reactrouter.com/favicon-light.png",
+      "name": "Docker",
+      "src": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png",
       "size": "large",
       "angle": 51,
-      "tooltipColor": "#CA4245"
+      "tooltipColor": "#2496ED"
     },
     {
       "name": "Axios",

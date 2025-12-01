@@ -19,7 +19,7 @@ const projects = [
     title: "Ezensi - AI-Native Content Platform",
     subtitle: "Real-Time Blog Engine with Next.js 16 & Gemini AI",
     description:
-      "Ezensi is a production-grade content operating system built on the bleeding edge of the React ecosystem (Next.js 16, React 19, Tailwind v4). It fuses a custom WYSIWYG block editor with Google's Gemini AI to help developers research, draft, and polish technical articles 10x faster. The platform features a reactive backend (Convex) for live social engagement, an advanced media pipeline (ImageKit) for real-time AI image transformations, and robust security via Clerk.",
+      "Architecting a Full-Stack, AI-Native Platform (Ezensi): Building a real-time, serverless backend using Convex and integrating Google's GenAI SDKs to power generative AI writing assistance.  Containerized the application using Docker (Multi-Stage Builds) to reduce image size to 276MB and established a CI/CD pipeline on Render for automated deployments. Enforced code quality with Husky/ESLint and secured data integrity with Zod. ",
     tags: [
       "Next.js 16",
       "React 19",
@@ -31,6 +31,7 @@ const projects = [
       "Shadcn UI",
       "TypeScript",
       "Zod",
+      "Docker",
     ],
     image: "/Ezensi.png",
     liveDemo: "https://ezensi.vercel.app/",

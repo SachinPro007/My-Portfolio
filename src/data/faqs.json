@@ -1,50 +1,38 @@
 [
   {
     "question": "What technologies do you specialize in?",
-    "answer": "I specialize in the modern Next.js ecosystem, building full-stack, serverless applications. My expertise is in TypeScript, Next.js (App Router), and real-time backends with Convex. I also have deep experience with the MERN stack. For the frontend, I use TanStack Query, Redux Toolkit, and Tailwind CSS/Shadcn."
+    "answer": "I specialize in the modern Next.js ecosystem, combining full-stack development with DevOps principles. My core stack includes TypeScript, Next.js (App Router), and Docker for containerization. I build robust backends using both the MERN stack and serverless solutions like Convex, ensuring end-to-end type safety."
   },
   {
     "question": "What kind of projects have you built?",
-    "answer": "I've built several production-grade applications, including 'Ezensi,' an AI-Native Blog Platform using Next.js, Convex, and Google's GenAI SDKs. I've also built a secure Next.js full-stack application with custom authentication and MySQL, and the 'ShopEase' eCommerce UI with advanced caching (TanStack Query)."
+    "answer": "I build production-ready systems, not just hobby projects. My flagship app, 'Ezensi' (Live), is an AI-Native Blog Platform containerized with Docker and deployed via CI/CD on Render. I've also architected 'ShopEase,' a high-performance eCommerce app with advanced caching, and a secure Next.js full-stack system with custom auth."
   },
   {
-    "question": "Do you have experience with state management?",
-    "answer": "Yes, I have comprehensive state management experience. I use Redux Toolkit for complex global state and TanStack Query for efficient server state management, caching, and data fetching. I've implemented state solutions that reduced API calls by 40% while maintaining data integrity in eCommerce applications."
+    "question": "Do you have experience with DevOps and Deployment?",
+    "answer": "Yes. I move beyond basic deployments by using Docker to containerize applications, ensuring consistent environments from development to production. I implement Multi-Stage builds to optimize image sizes (reducing my latest app to ~276MB) and set up automated CI/CD pipelines on platforms like Render."
   },
   {
-    "question": "Are your projects mobile responsive?",
-    "answer": "Absolutely! I follow mobile-first responsive design principles using Tailwind CSS, Material UI, and Shadcn components. All my projects guarantee seamless experiences across all devices while maintaining 90+ Lighthouse performance scores."
-  },
-  {
-    "question": "Have you used animation in your projects?",
-    "answer": "Yes, I extensively use Framer Motion to create engaging, performance-optimized animations. My portfolio features custom scroll effects, hover reveals, and smooth transitions crafted from scratch to enhance user experience without compromising performance."
-  },
-  {
-    "question": "How do you ensure code quality in your projects?",
-    "answer": "I implement professional code quality pipelines using ESLint, Prettier, Husky, and lint-staged for automated pre-commit checks. This CI/CD-ready approach ensures consistent, maintainable code standards and prevents quality regressions in production applications."
+    "question": "How do you ensure code quality and stability?",
+    "answer": "I enforce a strict quality standard using Husky, ESLint, and Prettier for pre-commit checks. Beyond syntax, I use Docker to prevent 'it works on my machine' issues, and I strictly validate all data using Zod to ensure type integrity across the full stack."
   },
   {
     "question": "Do you have full-stack development experience?",
-    "answer": "Yes, I have extensive full-stack experience. I build modern serverless backends with Convex and also have a deep understanding of the traditional MERN stack (MongoDB, Express, Node.js). My security expertise includes managed auth with Clerk as well as custom systems using Auth.js, Bcrypt, and JWTs."
+    "answer": "Yes, I am comfortable across the entire stack. I build scalable backends using Node.js/Express (MERN) and Serverless (Convex). My expertise includes designing database schemas (MongoDB/MySQL), handling complex state with Redux/TanStack Query, and securing APIs with Clerk or custom JWT implementation."
   },
   {
-    "question": "How do you handle API development and validation?",
-    "answer": "I use Next.js Server Actions and Route Handlers for API development, with comprehensive validation using Zod for both API and form validation. I implement intelligent access control through Next.js Middleware and maintain proper environment separation for production-grade applications."
-  },
-  {
-    "question": "What's your approach to authentication and security?",
-    "answer": "I use a professional, layered approach. For rapid, enterprise-grade security, I integrate modern solutions like Clerk. I also have deep experience building custom, tamper-proof systems from scratch, including cookie-based sessions with HMAC verification and Bcrypt hashing."
+    "question": "Are your projects mobile responsive?",
+    "answer": "Absolutely. I follow a mobile-first approach using Tailwind CSS and Shadcn UI. I rigorously test across devices to ensure seamless UX, maintaining 90+ Lighthouse performance scores even on mobile networks."
   },
   {
     "question": "How do you optimize application performance?",
-    "answer": "I optimize performance through TanStack Query caching strategies, code splitting, and efficient state management. My eCommerce project achieved 90+ Lighthouse scores and sub-second load times by reducing API calls by 40% through intelligent caching and debounced search implementations."
+    "answer": "Performance is a priority. I use TanStack Query for aggressive caching and Next.js Server Actions to minimize client-side JavaScript. I also optimize Docker images for faster cold starts and implement debouncing and code-splitting to keep the application lightweight."
   },
   {
-    "question": "Do you work with databases?",
-    "answer": "Yes, I have experience with both MongoDB in the MERN stack and external MySQL databases. I've implemented proper data modeling, relationships, and efficient querying patterns in my full-stack applications, ensuring data integrity and performance."
+    "question": "What is your approach to security?",
+    "answer": "I believe in security by design. I implement HTTP-only cookies for session management, use Bcrypt for password hashing, and protect API routes with Middleware. I also ensure strict environment variable isolation to keep production secrets safe."
   },
   {
     "question": "What are you currently learning or improving?",
-    "answer": "I'm continuously advancing my knowledge in Next.js App Router patterns, performance engineering, and advanced full-stack architecture. I'm currently developing a comprehensive MERN application with production-grade workflows and exploring advanced security implementations and scalable application patterns."
+    "answer": "I am currently focused on advanced Engineering best practices. I am diving deeper into Unit Testing with Jest/React Testing Library to ensure rock-solid reliability, and I am exploring System Design patterns to build even more scalable architectures."
   }
 ]
