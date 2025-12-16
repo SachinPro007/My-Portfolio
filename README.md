@@ -26,7 +26,7 @@ A sleek, interactive portfolio website built with modern web technologies featur
 
 ## 🚀 Development Details
 - **Role**: Sole Front-end Developer & UI Designer
-- **Duration**: 28 days
+- **Duration**: -----
 - **Lines of Code**: -----
 - **Commit Count**:  -----
 

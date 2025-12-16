@@ -34,6 +34,11 @@ const SkillsSection = () => {
           tooltipColor: "#38B2AC",
         },
         {
+          name: "SASS/SCSS",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+          tooltipColor: "#CC6699",
+        },
+        {
           name: "Material UI",
           src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
           tooltipColor: "#0081CB",
