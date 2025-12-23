@@ -7,12 +7,12 @@
   "image": "/Sachin-front-end-developer.webp",
   "experience": [
     {
-      "title": " Collaborating with Backend Developer on Client Projects",
-      "location": "Freelance Frontend Developer",
+      "title": "Collaborating with Backend Developer on Full Stack Freelance Projects",
+      "location": "Frontend Developer",
       "duration": "Jul 2025 - Present",
       "description": [
-        "Delivered 3 production-grade client projects, achieving a 20% reduction in page load times by implementing Next.js optimization techniques, fully type-safe UIs using TypeScript and TanStack Query.",
-        "Partnered with backend developers to integrate complex RESTful APIs, establishing a professional workflow with Husky and ESLint to maintain code consistency."
+        "Delivered multiple production-grade full-stack projects, achieving a 20% reduction in page load times by implementing Next.js optimization techniques, fully type-safe UIs using TypeScript and TanStack Query. ",
+        "Partnered with backend developer to integrate complex RESTful APIs, utilizing Jira for Agile task tracking and Husky/ESLint to maintain code consistency."
       ],
       "icon": "💻"
     }

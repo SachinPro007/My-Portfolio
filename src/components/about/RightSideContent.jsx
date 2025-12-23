@@ -82,9 +82,11 @@ function RightSideContent() {
               </li>
 
               <li>
-                <Highlight>ESLint, Husky, Lint-Staged</Highlight>: I ensure
-                enterprise-grade code quality by enforcing consistent standards
-                and using automated pre-commit checks to prevent bugs.
+                <Highlight>Jira, Agile, Husky, ESLint</Highlight>:{" "}
+                <span className="font-semibold text-green-500">(New)</span>{" "}
+                Integrating professional workflows. I manage development
+                lifecycles with Agile/Scrum methodologies while enforcing strict
+                code quality standards via automated pre-commit checks.
               </li>
             </p>
           </div>
@@ -130,19 +132,21 @@ function RightSideContent() {
             Upcoming Learning Goals
           </h4>
           <div className="flex flex-wrap gap-2">
-            {["Frontend Specialization", "Modern Web Development"].map((item, i) => (
-              <span
-                key={i}
-                className="px-3 py-1 text-xs font-medium rounded-full"
-                style={{
-                  backgroundColor: `${themeColors.primaryColor}15`,
-                  color: themeColors.primaryColor,
-                  border: `1px solid ${themeColors.primaryColor}30`,
-                }}
-              >
-                {item}
-              </span>
-            ))}
+            {["Frontend Specialization", "Modern Web Development"].map(
+              (item, i) => (
+                <span
+                  key={i}
+                  className="px-3 py-1 text-xs font-medium rounded-full"
+                  style={{
+                    backgroundColor: `${themeColors.primaryColor}15`,
+                    color: themeColors.primaryColor,
+                    border: `1px solid ${themeColors.primaryColor}30`,
+                  }}
+                >
+                  {item}
+                </span>
+              )
+            )}
           </div>
         </div>
       </div>

@@ -13,7 +13,7 @@
   },
   {
     "question": "How do you ensure code quality and stability?",
-    "answer": "I enforce a strict quality standard using Husky, ESLint, and Prettier for pre-commit checks. Beyond syntax, I use Docker to prevent 'it works on my machine' issues, and I strictly validate all data using Zod to ensure type integrity across the full stack."
+    "answer": "I enforce quality through both tools and process. I use Husky and ESLint for strict pre-commit checks and Zod for runtime data validation. On the process side, I track bugs and features using Jira, ensuring nothing slips through the cracks before deployment."
   },
   {
     "question": "Do you have full-stack development experience?",
@@ -32,7 +32,7 @@
     "answer": "I believe in security by design. I implement HTTP-only cookies for session management, use Bcrypt for password hashing, and protect API routes with Middleware. I also ensure strict environment variable isolation to keep production secrets safe."
   },
   {
-    "question": "What are you currently learning or improving?",
-    "answer": "I am currently focused on advanced Engineering best practices. I am diving deeper into Unit Testing with Jest/React Testing Library to ensure rock-solid reliability, and I am exploring System Design patterns to build even more scalable architectures."
+    "question": "What is your development workflow?",
+    "answer": "I simulate a professional Agile environment. I manage my projects using Jira, breaking down features into Epics and User Stories. I work in sprints, manage code via GitHub with clear commit messages, and use CI/CD pipelines to automate testing and deployment."
   }
 ]
