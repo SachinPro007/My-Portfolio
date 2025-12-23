@@ -15,6 +15,7 @@ A sleek, interactive portfolio website built with modern web technologies featur
 - **State Management**: Redux Toolkit
 - **Email Service**: EmailJS
 - **AI Tools**: Used for content refinement
+- **Containerize**: Docker 
 
 ## ✨ Key Features
 - 🎨 Custom theme controls (light/dark mode + color customization)
