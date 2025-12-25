@@ -34,7 +34,7 @@ const projects = [
       "Docker",
     ],
     image: "/Ezensi.png",
-    liveDemo: "https://ezansi.onrender.com/",
+    liveDemo: "https://ezensi.vercel.app/",
     githubRepo: "https://github.com/SachinPro007/nextjs_full_stack_ai",
     projectColor: "#4f46e5",
   },
