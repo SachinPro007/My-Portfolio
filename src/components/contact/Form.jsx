@@ -20,23 +20,16 @@ function Form({ itemVariants }) {
     setIsSubmitting(true);
     setStatus(null);
 
+    // here emailjs library configration please use your owen keys or IDs wach a quick tutorial on youtube to understand emailjs library configration.....
     emailjs
       .sendForm(
-        "service_a0f3apm", // EmailJS service ID
-        "template_r55v18y", // EmailJS template ID
+        import.meta.env.VITE_EMAILJS_SERVICE_ID, // EmailJS service ID
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID, // EmailJS template ID
         form.current,
         {
-          publicKey: "C4-lqD5NF19-WgYUq", // EmailJS publicKey
+          publicKey: import.meta.env.VITE_EMAILJS_PUBLICKEY, // EmailJS publicKey
         }
       )
-      .then(() => {
-        "service_a0f3apm", // EmailJS service ID
-          "template_ujk5y3i", // EmailJS template ID
-          form.current,
-          {
-            publicKey: "C4-lqD5NF19-WgYUq", // EmailJS publicKey
-          };
-      })
       .then(
         () => {
           setStatus("success");
@@ -46,7 +39,7 @@ function Form({ itemVariants }) {
         (error) => {
           setStatus("error");
           setIsSubmitting(false);
-          console.log("FAILED...", error.text);
+          console.log("FAILED...", error);
         }
       );
   };
